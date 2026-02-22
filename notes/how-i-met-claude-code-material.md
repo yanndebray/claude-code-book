@@ -52,13 +52,54 @@ Four months later — zero edits, zero marketing, zero SEO work — I checked my
 
 **OpenAI Canvas** — Used once. For single-page web apps, you defaulted to the Claude app (mobile or desktop).
 
+### "GenAI Tools for Modern Tech Marketers" (September 2025)
+
+*Source: Claude Code Book Draft.md — Week 2*
+
+Before the Claude pilot even began, I gave a presentation to the broader product marketing department at the end of September 2025 with my colleague Jacob — called "GenAI Tools for Modern Tech Marketers."
+
+The focus was on **Microsoft Copilot** capabilities, as those were more widely available in the organisation. It covered three personas and use cases:
+- **Product Manager** — strategic and analytical work
+- **Developer** — code assistance
+- **Outbound Marketer** — content and campaign support
+
+Two Microsoft 365 Copilot tools stood out for product managers:
+1. **The Researcher** — deep research capability (similar to what ChatGPT and Perplexity introduced in early 2025)
+2. **The Analyst** — data analysis integrated in the Microsoft 365 environment, with access to Excel files. I used it to analyze product usage sliced across different dimensions.
+
+*This pre-dates the Claude pilot by two months and establishes the "before" baseline — what AI tools looked like before Claude Code changed the game.*
+
 ---
 
 ## CHAPTER 2: DECEMBER 2025 — FIRST CONTACT
 
+### Claude Desktop: The Stepping Stone
+
+*Source: Claude Code Book Draft.md — Week 1*
+
+Before diving into Claude Code, I started with **Claude Desktop**. The Desktop app is a very approachable interface for those who come from chat apps like ChatGPT. The first question you ask yourself is: What kind of project can I tackle with Claude?
+
+The type of tasks I tackled with Claude Desktop was more around strategy and competitive analysis than coding related (at first). I created a presentation on the impact of agentic AI on the market of scientific and technical computing — something that most companies must be asking themselves now.
+
+**The technology adoption chasm:** I developed a diagram describing the chasm between early adopters of agentic AI (evaluating solutions like Claude) and the majority still associating AI with chatbots like ChatGPT. This strategic framing became a recurring lens.
+
 ### The MathWorks Pilot
 
 The company started a pilot for Claude Code — assessing potential for non-developers first. Product managers were given access, with responsibility to report back in Q1 2026. I was one of the lucky ones.
+
+### Conference Report-Outs as Early Use Cases
+
+*Source: Claude Code Book Draft.md — Week 1*
+
+We went to the **JupyterCon conference** in San Diego with my colleague Rohan in early November. We had already delivered an internal presentation to report on what was happening in open-source scientific computing and notebooks. But the whole process took us a long time, and I wondered: could some parts of it be automated? How much so, and how qualitative would the result be?
+
+I designed a workflow with three scenarios between note-taking and proper reporting in presentation form. Another conference was coming up — **PyData**, happening locally in Boston for the first time (usually PyData US takes place in NYC) — so I replicated this workflow to test it on a new set of data.
+
+### The Blogging Workflow
+
+*Source: Claude Code Book Draft.md — Week 1*
+
+The core insight applied to blog writing: **automate the boring steps to concentrate on ideation and code writing.** This became a visual workflow diagram and a recurring principle throughout the collaboration.
 
 ### The Strategic Awakening
 
@@ -165,6 +206,33 @@ I designed MCP servers for:
 - **ThingSpeak** (IoT data access via MCP)
 - **Google Spreadsheet** (private data access — actually deployed)
 - **MATLAB Remote Service** (for remote execution in the cloud or on a local server)
+
+### Agentic Learnings: Tips & Tricks with Claude Code
+
+*Source: Claude Code Book Draft.md — "Agentic learnings" section*
+
+Key Claude Code features I documented for onboarding:
+
+- **`/init`** — Bootstrap a project with CLAUDE.md and initial configuration
+- **`/context`** — Load context into a session
+- **`/commands`** — Custom slash commands for repeatable workflows
+
+**Commands vs. Skills:**
+
+| Aspect | Commands | Skills |
+|--------|----------|--------|
+| Invocation | Manual: /command | Automatic: Claude decides |
+| Structure | Single .md file | Directory with SKILL.md |
+| Location | .claude/commands/ | .claude/skills/ |
+| Discovery | User must type command | Claude matches description |
+| Supporting files | Not supported | Load on demand |
+| Best for | Quick templates | Complex workflows |
+
+### Advanced Maneuvers: Agents Calling Agents
+
+Beyond "agents calling tools" (the MCP thesis), a more advanced pattern emerged: **agents calling agents** — orchestrating multiple AI agents in sequence or parallel. This escalation from tool-use to agent-orchestration represents another step in the agentic AI evolution.
+
+*See also: [Add examples for slides with a table · Issue #8 · yanndebray/nietzsche](https://github.com/yanndebray/nietzsche/issues/8)*
 
 ---
 
