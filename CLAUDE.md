@@ -13,14 +13,19 @@ claude-code-book/
 ├── CLAUDE.md              ← This file
 ├── README.md              ← Project title and one-liner
 ├── LICENSE                ← MIT License (2026, Yann Debray)
+├── .gitignore             ← Ignores archives/
 ├── chapters/
 │   └── 01-introduction.md ← Drafted chapters (numbered, one file per chapter)
-└── notes/
-    ├── how-i-met-claude-code-material.md    ← Source material & chapter outlines
-    └── writing-workflow-best-practices.md   ← Writing methodology reference
+├── notes/
+│   ├── how-i-met-claude-code-material.md    ← Source material & chapter outlines
+│   ├── writing-workflow-best-practices.md   ← Writing methodology reference
+│   ├── Claude Code Book Draft.md            ← Google Docs export (contains base64 images — see Preprocessing section)
+│   └── resources.md                         ← Google Docs → Markdown conversion tools
+└── scripts/
+    └── strip_base64_images.py               ← Strips base64 images from Google Docs exports
 ```
 
-**No build system, no dependencies, no tests.** This is a pure Markdown writing project under Git version control.
+**No build system, no dependencies, no tests.** This is a pure Markdown writing project under Git version control (Python 3 used only for preprocessing scripts).
 
 ## Writing Conventions
 
@@ -84,6 +89,64 @@ Use descriptive messages that indicate who made the edit and what changed:
 - **Pandoc** — Markdown ↔ Word conversion: `pandoc chapters/01-introduction.md -o exports/01-introduction.docx`
 - **Git/GitHub** — Version control
 - **Google Docs + "Docs to Markdown" add-on** — For human collaboration round-trips
+
+## Preprocessing Google Docs Exports
+
+Files exported from Google Docs (via "Docs to Markdown") often contain **base64-encoded images** inlined at the bottom of the `.md` file. These can make a single file over 1 MB, which exceeds Claude's file-read limits and wastes context.
+
+**Before reading or working with a Google Docs export, strip the embedded images using Python:**
+
+```bash
+python3 scripts/strip_base64_images.py notes/my-export.md
+```
+
+This produces a cleaned file at `notes/my-export.stripped.md` with image references replaced by descriptive placeholders.
+
+**The script (`scripts/strip_base64_images.py`):**
+
+```python
+#!/usr/bin/env python3
+"""Strip base64-encoded images from Markdown files exported by Google Docs.
+
+Replaces [imageN]: <data:image/...> references with readable placeholders
+and keeps all other content intact. Writes to <original>.stripped.md.
+"""
+import re
+import sys
+from pathlib import Path
+
+def strip_base64_images(filepath: Path) -> Path:
+    text = filepath.read_text(encoding="utf-8")
+
+    # Replace inline base64 image references: [imageN]: <data:image/png;base64,...>
+    text = re.sub(
+        r'^\[image(\d+)\]:\s*<data:image/[^>]+>',
+        r'[image\1]: <!-- base64 image removed for AI processing -->',
+        text,
+        flags=re.MULTILINE,
+    )
+
+    # Replace any remaining inline base64 data URIs in image tags
+    text = re.sub(
+        r'!\[([^\]]*)\]\(data:image/[^)]+\)',
+        r'![\1](<!-- base64 image removed -->)',
+        text,
+    )
+
+    out = filepath.with_suffix(".stripped.md")
+    out.write_text(text, encoding="utf-8")
+    print(f"Stripped: {filepath} -> {out} ({filepath.stat().st_size:,} -> {out.stat().st_size:,} bytes)")
+    return out
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python3 strip_base64_images.py <file.md> [file2.md ...]")
+        sys.exit(1)
+    for arg in sys.argv[1:]:
+        strip_base64_images(Path(arg))
+```
+
+**Convention:** Always read the `.stripped.md` version when one exists. The original export is kept for reference but should not be read directly by Claude.
 
 ## Key Context for AI Assistants
 
