@@ -289,21 +289,7 @@ This feedback crystallized a key theme of the book: **the human does the interes
 
 ---
 
-## CHAPTER 8: THE HACKATHON MOMENT
-
-### Claude Recommends What To Build
-
-When I asked Claude what to build for a Claude Code hackathon, based on everything we'd discussed, the top recommendations were:
-
-1. **MCP-Orchestrated Slide Deck Generator** — Combining nietzsche.cc with Claude Code. "Agents calling tools" thesis in action.
-2. **Philosopher Rap Battle Web App** — My existing concept, built live using Claude Code as a vibe coding demo.
-3. **Voiceover Annotation Tool (montaigne.cc MVP)** — Minimal web app for reviewing AI-generated voiceovers. Play video, press a key to drop a timestamped note, export annotations as JSON or SRT. Why it fits: I already did the competitive research (Frame.io gaps, etc.), it scratches my own itch (Zarathustra voiceover workflow), it's lightweight enough for a hackathon, and could evolve into a real tool for my YouTube content production.
-
-The twist for #2: *Build the entire thing live using Claude Code as a demonstration of vibe coding itself.*
-
----
-
-## CHAPTER 9: WHAT THIS RELATIONSHIP ACTUALLY IS
+## CHAPTER 8: WHAT THIS RELATIONSHIP ACTUALLY IS
 
 ### The Nature of Human-AI Collaboration
 
@@ -355,6 +341,19 @@ The difference isn't just capability — it's the nature of the interaction. GPT
 - Connecting to Hardware with MCP (Dec 17, 2025)
 - Building an Optimization Agent with MCP (Jan 15, 2026)
 - Automating Documentation with MCP (Feb 5, 2026)
+
+## APPENDIX: THE HACKATHON PROJECTS
+
+### Claude Recommends What To Build
+
+When I asked Claude what to build for a Claude Code hackathon, based on everything we'd discussed, the top recommendations were:
+
+1. **MCP-Orchestrated Slide Deck Generator** — Combining nietzsche.cc with Claude Code. "Agents calling tools" thesis in action.
+2. **Philosopher Rap Battle Web App** — My existing concept, built live using Claude Code as a vibe coding demo.
+3. **Voiceover Annotation Tool (montaigne.cc MVP)** — Minimal web app for reviewing AI-generated voiceovers. Play video, press a key to drop a timestamped note, export annotations as JSON or SRT. Why it fits: I already did the competitive research (Frame.io gaps, etc.), it scratches my own itch (Zarathustra voiceover workflow), it's lightweight enough for a hackathon, and could evolve into a real tool for my YouTube content production.
+
+The twist for #2: *Build the entire thing live using Claude Code as a demonstration of vibe coding itself.*
+
 
 ---
 
