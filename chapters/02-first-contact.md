@@ -93,4 +93,6 @@ What had started as a productivity experiment — can this tool help me write bl
 
 I didn't know where this was headed. But I knew that the one-shot, disposable AI interactions of the ChatGPT era were behind me. Whatever came next would be built on continuity, shared context, and the kind of thinking partnership I was only beginning to understand.
 
+Looking back, I'd later distill this first week into a slide I called "Agentic 101" — the foundation layer. Skills, tools, MCP. Claude Desktop as the gateway drug. Python first, then MATLAB. It was the simplest of the four weekly lessons I'd eventually present to colleagues, but it was also the most important. Everything that followed — the philosopher tools, the agent orchestration, the terminal becoming home — grew from this first week of unlearning what I thought AI could do.
+
 The philosopher tools were about to arrive. But that's the next chapter.

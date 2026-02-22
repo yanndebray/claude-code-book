@@ -107,6 +107,8 @@ The philosopher tools were the first sign that my collaboration with Claude was 
 
 Week 2 had taught me that the line between philosophy and programming was thinner than I'd imagined. The existentialists and the engineers were asking the same question: *What should I build, and why does it matter?*
 
+What I didn't know yet was that these weekly discoveries — the density principle, the philosopher army, the shift from skills to tools — would become the backbone of an internal evangelism campaign. Slides I'd present to three different audiences over the next six weeks, each time with a deeper understanding of what "build tools, not skills" really meant. But that story belongs to a later chapter.
+
 I didn't have a complete answer yet. But I had an army of philosophers, a PyPI account, and a growing suspicion that the most interesting work was still ahead.
 
 The competitive intelligence reports were about to begin. Claude was about to become my research partner. But that's the next chapter.

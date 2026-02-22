@@ -41,7 +41,7 @@ A new category appeared that hadn't existed in the outbound deck. **Agentic Deve
 
 Then some more non-coding related use cases.The deep research examples were chosen for strategic relevance. I showed a neuroscience community toolbox analysis — FieldTrip, EEGLAB, MNE-Python. The research revealed a bifurcation: MATLAB-based tools historically dominant, Python-based alternatives rapidly growing with zero licensing costs. EEGLAB leading citations at 21,700+, MNE-Python showing the fastest growth. That kind of intelligence was directly actionable for an academic disciplines and industry marketing team deciding where to invest.
 
-The weekly learnings section had evolved too. Week 1: "Density" — build tools, not skills. Week 2: Claude Code running Codex and Gemini. Week 3: TUI — Terminal User Interface. The progression told its own story.
+The weekly learnings section had evolved too. By Week 3, the slides carried three layers of accumulating insight — from Agentic 101 through tool-building to multi-agent orchestration. The audience could see the learning curve accelerating in real time.
 
 ### Educator Programs — The One Built from Scratch
 
@@ -50,6 +50,29 @@ By Week 6, I didn't just update the deck. I rebuilt it entirely.
 The educator audience cared about teaching content creation, forum support, and MATLAB live script generation. The generic "blogging workflow" and "market intelligence" sections from earlier decks? Gone. Replaced with education-specific use cases: creating content for a linear algebra workshop at the University of Oklahoma, analyzing community toolboxes for academic adoption, generating teaching materials that could scale.
 
 This was the most audience-adapted version. And it was the one where something unexpected happened.
+
+## The Learning Curve in Four Weeks
+
+Each version of the deck included a "weekly learnings" section — a running log of what I'd discovered since the last presentation. What started as a simple bullet list became, without my planning it, a narrative of transformation. Four weeks, four stages.
+
+**Week 1: Agentic 101.** Start with Claude Desktop. Get a taste of the agentic capabilities — the ability to read and write directly on the file system. Discover a few concepts: skills, tools, the Model Context Protocol. See how this applies to coding. Begin with Python, then connect to MATLAB via the MCP Core Server. This was the foundation — understanding that an AI agent isn't just a chatbot with delusions of grandeur, but a system that can use tools autonomously. When I presented this to the outbound team, it was already two weeks old. But for most people in the room, it was new. That gap — between where I was and where my audience was — would widen with every passing week.
+
+**Week 2: Density — less is more.** Focus on just the necessary context. Filter and condense the information you need. The crucial insight: build tools, not just skills. CLI tools can be used by your agents and follow deterministic behavior — a workflow for slide deck creation, information extraction from YouTube videos. This is when the army of philosophers was born: Montaigne, Nietzsche, Schopenhauer. Claude generating GitHub Issues to manage requirements. Tests validated automatically through GitHub Actions. When a test failed, ask the GitHub MCP server to retrieve the trace — no more copy-pasting error logs. `uv` is life. Python for CLI is fire. Publish to PyPI — let the game begin. If Week 1 was about learning what agents could do, Week 2 was about building things that agents could use. The shift from consumer to creator.
+
+**Week 3: Agents calling agents.** Beyond "agents calling tools" — the MCP thesis — a more advanced pattern emerged: Claude orchestrating Codex and Gemini CLI. Deep research workflows inspired by NetworkChuck — sending multiple agents down different research paths and synthesizing the results. This wasn't just tool use anymore. This was orchestration. The conductor stepping up from the orchestra pit. When I showed this slide to the industry marketing team, I could see the moment it clicked for some of them — and the moment it overwhelmed others. The gap between "I use ChatGPT for emails" and "I orchestrate multiple AI agents in parallel" was wider than anyone had expected.
+
+**Week 4: The terminal is my happy place.** Building CLIs for Claude and for myself. TUIs — terminal user interfaces, yes, very nerdy. Even SSH apps that could be accessed remotely. The terminal had become home. Not the IDE, not the browser, not the chat window — the terminal. For a non-developer who started this journey in a ChatGPT text box three months earlier, landing in the terminal and feeling comfortable there was perhaps the most telling sign that something fundamental had shifted.
+
+The progression told a story I hadn't planned but couldn't deny:
+
+| Week | Theme | Identity |
+|------|-------|----------|
+| 1 | Agentic 101 | Consumer |
+| 2 | Density — less is more | Creator |
+| 3 | Agents calling agents | Conductor |
+| 4 | The terminal is my happy place | Native |
+
+Each stage wasn't just a skill upgrade — it was an identity shift. And each presentation caught me at a different point on that curve, which is why no two versions of the deck told the same story. The audience mattered, yes. But so did where I was on the journey. The person who presented Agentic 101 in Week 2 was not the same person who rebuilt the entire deck for educators in Week 6. The tool had changed me, and the presentations were the evidence.
 
 ## The Live Demo That Changed Minds
 
