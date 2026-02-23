@@ -1,3 +1,5 @@
 archives/
 resources/
 *.stripped.md
+__pycache__/
+*.pyc
