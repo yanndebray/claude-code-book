@@ -63,7 +63,7 @@ When drafting or expanding chapters, preserve this voice. Do not flatten it into
 2. December 2025 — First Contact
 3. The Philosopher Tools
 4. The Competitive Intelligence Machine
-5. The MCP Revolution
+5. The MCP Standardization
 6. The Side Projects That Kept Growing
 7. Writing the Future — "The Age of AI Agents"
 8. The Hackathon Moment

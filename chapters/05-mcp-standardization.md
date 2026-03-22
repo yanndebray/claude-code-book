@@ -1,15 +1,15 @@
 ---
-title: "Chapter 5: The MCP Revolution"
-status: draft-v1
+title: "Chapter 5: The MCP Standardization"
+status: draft-v2
 last_editor: claude
-notes: "Covers the Model Context Protocol — the MATLAB MCP Core Server, the 'USB-C for AI' metaphor, MCP server experiments, the onboarding campaign, commands vs. skills, and agents calling agents"
+notes: "Covers the Model Context Protocol — the MATLAB MCP Core Server, the 'USB-C for AI' metaphor, MCP server experiments, the onboarding campaign, skills, and agents calling agents. Revised per issue #13 annotations."
 ---
 
-# Chapter 5: The MCP Revolution
+# Chapter 5: The MCP Standardization
 
 Everything I'd built so far — the philosopher tools, the competitive intelligence reports, the blog posts, the strategic memos — had one thing in common. They were separate. Each tool lived in its own world. Each workflow started from scratch. The blog posts didn't know about the CLI tools. The research didn't feed back into the presentations. The competitive intelligence existed in documents, not in systems.
 
-What I needed was infrastructure. A way to connect all of these pieces so that agents could use them together, not just one at a time. That infrastructure had a name, and it was about to become the central theme of everything I did.
+What I needed was infrastructure. A way to connect all of these pieces so that agents could use them together, not just one at a time. That infrastructure had a name, and while it didn't change everything on its own, it compounded with everything else I was learning.
 
 The Model Context Protocol. MCP.
 
@@ -39,7 +39,7 @@ The server itself was elegant in its simplicity. Five tools:
 
 Five tools. That's it. But those five tools turned MATLAB from a standalone application into something that any AI agent could call programmatically. The strategic implications were enormous.
 
-I remember the moment it clicked for me — watching Claude Code call `evaluate_matlab_code`, run a computation, inspect the output, decide it needed to adjust a parameter, and call it again. No human in the loop. The agent was *using* MATLAB the way a developer would. Not generating MATLAB code and hoping you'd copy-paste it (the ChatGPT pattern), but actually running it, reading the results, and iterating.
+I remember the moment it clicked for me — watching Claude Code call `evaluate_matlab_code`, run a computation, inspect the output, decide it needed to adjust a parameter, and call it again. No human in the loop. The agent was *using* MATLAB the way a user would. Not generating MATLAB code and hoping you'd copy-paste it (the ChatGPT pattern), but actually running it, reading the results, and iterating.
 
 This is the difference between AI that generates code and AI that uses tools. MCP made the latter possible.
 
@@ -69,7 +69,7 @@ The MATLAB MCP Core Server was just the beginning. Once you understand the MCP p
 
 **ThingSpeak** — IoT data access via MCP. ThingSpeak is MathWorks' platform for IoT data storage and analysis. Wrapping it in an MCP server meant that any AI agent could query IoT sensor data, analyze trends, and trigger actions — all through the same standard protocol.
 
-**Google Spreadsheet** — Private data access. This one actually got deployed. My colleague and I built an MCP server that let agents read from and write to Google Sheets — a bridge between the structured world of spreadsheets and the conversational world of AI agents. It sounds mundane, but think about how many business workflows live in spreadsheets. Giving agents access to that data, through a standard interface, unlocked an enormous amount of practical utility.
+**Google Spreadsheet** — Private data access. This one started as a proof of concept and actually got deployed. My colleague and I built an MCP server that let agents read from and write to Google Sheets — a bridge between the structured world of spreadsheets and the conversational world of AI agents. It sounds mundane, but think about how many business workflows live in spreadsheets. Giving agents access to that data, through a standard interface, unlocked an enormous amount of practical utility.
 
 **MATLAB Remote Service** — For remote execution in the cloud or on a local server. This was the ambitious one. Instead of requiring a local MATLAB installation, the remote server let agents call MATLAB running somewhere else — in the cloud, on a compute cluster, on a colleague's machine. The MCP server abstracted away the location, so the agent didn't care whether MATLAB was local or remote.
 
@@ -84,7 +84,7 @@ The blog posts I'd started drafting in Week 1 had a recurring character: MCP. Al
 - **Deploying a Quant Agent** — financial analysis with MATLAB as the computational backbone, connected through MCP
 - **Giving Local AI Agents the Ability to Use MATLAB** — the on-ramp for users running local models
 - **Building an Optimization Agent** — engineering optimization workflows, orchestrated through MCP
-- **Automating the Documentation of MATLAB Analysis** — the full pipeline from analysis to documentation, with MCP as the connective tissue
+- **Automating the Documentation of MATLAB Analysis** — the full pipeline from analysis to documentation, with MCP to automate the boring stuff
 
 Six posts, all variations on the same theme: MATLAB + MCP = MATLAB in the agentic era. The blog posts weren't just content marketing. They were proof of concept. Each one demonstrated a different use case, a different audience, a different reason why the MCP integration mattered.
 
@@ -92,27 +92,35 @@ Six posts, all variations on the same theme: MATLAB + MCP = MATLAB in the agenti
 
 As I went deeper into the MCP ecosystem, I realized something: the technology was only half the challenge. The other half was getting people to use it.
 
-So I built an onboarding package. A complete Claude Code 101 for MathWorkers: installation guide, CLAUDE.md files for common project types, slash commands for repeatable workflows, MCP server setup instructions, Git workflow best practices, tips and tricks I'd accumulated over weeks of daily use.
+So I built an onboarding package. A complete Claude Code 101 for MathWorkers: installation guide, CLAUDE.md files for common project types, custom skills for repeatable workflows, MCP server setup instructions, Git workflow best practices, tips and tricks I'd accumulated over weeks of daily use.
 
 This is where the Claude Code features I'd been exploring became teachable material:
 
-**`/init`** — Bootstrap a project with CLAUDE.md and initial configuration. The command that turns a blank directory into a project that Claude understands. I showed colleagues how one command could set up the context, conventions, and instructions that would make every subsequent conversation more productive.
+**`/init`** — Bootstrap a project with CLAUDE.md and initial configuration. For teams with an existing codebase, this was the fastest on-ramp: one command analyzes the project — its structure, its dependencies, its conventions — and generates a CLAUDE.md that makes every subsequent conversation more productive. I showed colleagues how `/init` on their MATLAB projects would immediately give Claude the context to be useful.
 
-**`/context`** — Load context into a session. The ability to bring Claude up to speed on a project without re-explaining everything from scratch. For someone who'd experienced the "every session starts from zero" frustration of the ChatGPT era, this was transformative.
+**`CLAUDE.md`** — The file that solved the "every session starts from zero" problem. If you've used ChatGPT, you know the frustration: every conversation begins with you re-explaining your project, your conventions, your preferences. CLAUDE.md is a Markdown file that Claude reads at the start of every session — like onboarding documentation for a new teammate who happens to have perfect recall. Your build commands, your coding standards, your architecture decisions — all persistent, all version-controlled alongside your code.
 
-**`/commands`** — Custom slash commands for repeatable workflows. The bridge between "I do this manually every time" and "I type one command and it happens." I built commands for blog post drafting, for presentation generation, for competitive intelligence — all the workflows I'd been doing manually, now formalized and shareable.
+**Custom skills** — This is the feature that connected everything. But it needs a story to explain why.
 
-The distinction between commands and skills became one of my favorite things to explain:
+### The Blog Post Skill
 
-| Aspect | Commands | Skills |
-|--------|----------|--------|
-| Invocation | Manual: /command | Automatic: Claude decides |
-| Structure | Single .md file | Directory with SKILL.md |
-| Location | .claude/commands/ | .claude/skills/ |
-| Discovery | User must type command | Claude matches description |
-| Best for | Quick templates | Complex workflows |
+Remember the blogging workflow from Chapter 2? Claude had analyzed my published writing and codified my voice: the opening hooks, the colleague references, the "Happy hacking" closings, the Problem-Demo-Walkthrough-Resources structure. That voice guide was gold. But every time I started a new blog post in a fresh session, I had to reload it. "Here's my voice. Here's my structure. Here's how I reference colleagues." Five minutes of preamble, every time.
 
-Commands are things you ask for. Skills are things Claude recognizes it needs. The difference is subtle but profound — it's the difference between a tool you pick up and a capability that activates itself when the situation calls for it.
+So I turned it into a skill. A directory in `.claude/skills/blog-post/` containing a `SKILL.md` with my voice guide, my structure template, and my formatting preferences. Now I could type `/blog-post "MATLAB + Hardware via MCP"` and Claude would draft a post that sounded like me — every time, without the preamble.
+
+But here's where it got interesting. I noticed that sometimes Claude should know about my voice *without me asking*. If I was editing a blog draft and Claude suggested a paragraph, it should already sound like me — not because I typed `/blog-post`, but because Claude recognized the context and loaded the right knowledge automatically.
+
+That's what skills do. The `SKILL.md` has a description field that Claude reads at the start of every session. When Claude sees that description matches what you're doing — drafting a blog post, generating a presentation, running a competitive analysis — it loads the full skill automatically. You don't invoke it. It activates itself.
+
+This was the progression I taught in the onboarding:
+
+1. **CLAUDE.md** gives Claude persistent knowledge about your project
+2. **Slash commands** (skills with `/skill-name`) let you invoke a workflow explicitly
+3. **Auto-invoked skills** let Claude recognize when a workflow applies and load it on its own
+
+The difference between typing `/blog-post` and having Claude just *know* your voice is subtle but profound. It's the difference between a tool you pick up and a capability that activates itself when the situation calls for it. And it connected back to the central thesis of this book: the shift from AI-as-tool to AI-as-thinking-partner.
+
+The competitive intelligence workflows from Chapter 4? Skills. The philosopher tool documentation from Chapter 3? Skills. The presentation generation with nietzsche.cc? A skill. Every repeatable workflow I'd built over the previous weeks could be formalized, shared with colleagues, and — crucially — triggered automatically when the context was right.
 
 ## Agents Calling Agents
 
@@ -126,13 +134,13 @@ The inspiration came from NetworkChuck — the idea of sending multiple agents d
 
 Gemini CLI's headless mode made this practical. OpenAI's Codex CLI offered another execution path. Even GitHub Copilot could be subcontracted through the `/github:AssignCodingAgent` MCP command — Claude assigning implementation work to Copilot through GitHub Issues.
 
-This escalation from tool-use to agent-orchestration felt like watching a gear shift. The MCP server gave agents hands. Agents calling agents gave them a team. The metaphor wasn't a single worker with better tools anymore — it was a manager coordinating a team of specialists, each with their own strengths.
+This escalation from tool-use to agent-orchestration felt like watching a gear shift. The MCP server gave agents hands. Agents calling agents gave them a team. The metaphor wasn't a single worker with better tools anymore — it was a manager coordinating a team of specialists, each with their own strengths. Claude Code would later formalize this with *agent teams* — custom subagent definitions you could configure in `.claude/agents/`, each with its own model, tools, and instructions. The ad-hoc orchestration I was doing manually was becoming a first-class feature.
 
 I showed this slide to the industry marketing team during my Week 3 presentation. I could see the moment it clicked for some of them — and the moment it overwhelmed others. The gap between "I use ChatGPT for emails" and "I orchestrate multiple AI agents in parallel" was wider than anyone had expected.
 
 ## What MCP Actually Changed
 
-Here's what I think the MCP revolution is really about.
+Here's what I think the MCP shift is really about.
 
 Before MCP, every AI integration was a one-off. You'd connect one agent to one tool, and the integration was fragile, proprietary, and hard to maintain. The cost of connecting anything to anything was high, so people connected very little.
 
