@@ -7,7 +7,7 @@ notes: "Covers the pre-Claude AI landscape, vibe coding origin story, and projec
 
 # Chapter 1: Before Claude Code (BCC) — The ChatGPT Era
 
-If you are like me, you were probably deep in the ChatGPT era by mid-2025 and didn't even realize a seismic shift was coming.
+By mid-2025, you were probably deep in the ChatGPT era — like me — and didn't even realize a seismic shift was coming.
 
 Everyone I knew was experimenting. Product managers were tip-toeing with the technology, prototyping with AI services or locally with Ollama. Marketing teams were generating content drafts. Developers were starting to evaluate copilots and some were happy enough about the productivity gain it was providing. It's in mid-2025 that the term "vibe coding" entered the vocabulary — this idea that you could describe what you wanted in plain language and watch an AI conjure it into existence. It felt like magic, and like most magic, we didn't fully understand the trick.
 
@@ -37,23 +37,23 @@ Four months later — December 2025 — I was poking around my Cloudflare dashbo
 
 I stared at the number. Zero edits since launch. Zero marketing. Zero SEO work. Zero social media promotion. Nothing. I had literally forgotten the site existed for weeks at a time, and over a thousand people had found it, visited it, and presumably cooked something from it.
 
-This broke something in my mental model. I had always assumed that building a useful product required sustained effort — iteration, marketing, user research, the whole product management playbook I'd internalized over years at MathWorks. But here was a website I'd built in a kitchen at 2am with an AI, and it was generating more organic traffic than projects I'd spent months planning.
+This broke something in my mental model. I had always assumed that building a useful product required sustained effort — iteration, marketing, user research, the whole product management playbook I'd internalized over years in my job. But here was a website I'd built in a kitchen at 10pm with AI, and it was generating more organic traffic than projects I'd spent months planning.
 
 The lessons hit me one at a time over the following days:
 
 - **Vibe coding can produce genuinely useful, discoverable products.** Not just demos — real things that real people find and use.
 - **The "demo that becomes real" pattern is more powerful than planned projects.** When you remove the friction of building, you can test ideas at the speed of conversation.
-- **Domain purchases at 2am sometimes pay off.** I'm not saying it's a strategy. But I'm not saying it isn't.
+- **Domain purchases at 10pm sometimes pay off.** I'm not saying it's a strategy. But I'm not saying it isn't.
 
 ## Other Pre-Claude Projects
 
 recettesdezoe.com wasn't my only experiment in the pre-Claude era. That summer and fall, I'd been building a small portfolio of AI-assisted projects, each one pushing a little further into what was possible.
 
-**GhostRunners.app** was probably the most ambitious. I'm a cycling enthusiast, and I wanted something that didn't exist: real-time analytics that could compare my current ride to previous efforts on the same route — essentially racing against my own ghost, like in a video game. I built it using MATLAB Mobile for data capture, MATLAB Online for the analysis, and Python with the Garmin FIT SDK for parsing the ride files. I even recorded YouTube videos documenting the process on my channel @yannspeaksai. It wasn't pretty code, but it worked, and it scratched an itch no existing app could reach.
+**GhostRunners.app** was probably the most ambitious. I was getting back on my bicycle, and I wanted to get better at it: so i looked at analytics that could compare my current ride to previous efforts on the same route — essentially racing against my own ghost, like in a video game. I built it using MATLAB Mobile for data capture, MATLAB Online for the analysis, and Python with the Garmin FIT SDK for parsing the ride files. I even recorded YouTube videos documenting the process on my channel @yannspeaksai. It wasn't pretty code, but it worked, and it scratched an itch and motivated me to exercise more.
 
 **OpenAI Codex** came next — first as a VSCode integration where I could vibe-code small HTML and JavaScript apps, and later as a cloud-based agent that could run data analysis hands-off. The progression was revealing: from AI helping me write code, to AI writing code while I watched, to AI writing and running code while I did something else entirely.
 
-**OpenAI Canvas** I tried once and largely abandoned. For single-page web apps, I found myself defaulting to the Claude app — either on mobile or desktop. Even before Claude Code entered the picture, something about Claude's approach to conversation was pulling me in.
+**OpenAI Canvas** I tried once and largely abandoned. For single-page web apps, I found myself defaulting to the Claude app — either on mobile or desktop. Even before Claude Code entered the picture, something about Claude's approach to Artifacts was pulling me in.
 
 ## The Pattern I Couldn't See Yet
 
