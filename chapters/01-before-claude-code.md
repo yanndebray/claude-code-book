@@ -15,6 +15,20 @@ I was spending all the free hours I had on AI. I had my ChatGPT subscription, my
 
 That was about to change. But first, let me tell you about the night I built a website in my kitchen.
 
+## The First Agent
+
+On February 14th, 2025 — Valentine's Day, of all days — Perplexity launched Deep Research. I remember the date because it felt like a gift, though not the kind you'd expect.
+
+Up until then, AI was something you talked *to*. You asked a question, it answered. You wrote a prompt, it generated text. The mental model was a very smart search box, or a very patient assistant who never got tired of your follow-up questions. The loop was always: me type, AI respond, me copy, me paste, me think.
+
+Deep Research broke that loop. You gave it a question — a real, meaty one — and it went away. It searched. It read. It synthesized across dozens of sources. It came back with something that looked less like a chatbot response and more like a document a junior analyst might produce after a week of work. The first time I used it for a competitive analysis at MathWorks, I had that specific feeling that something had shifted: I hadn't helped it do research. It had done research, and showed me the results.
+
+A colleague of mine had a reaction that stayed with me — watching someone replicate months of his market analysis work with a single deep research prompt in under thirty minutes. I'll come back to that story in Chapter 4, when we get into the competitive intelligence work in more *depth*. But the seed of it was here, in early 2025, the first time a research task felt genuinely delegatable.
+
+Still, there was a ceiling. Deep Research was powerful for synthesis, but it remained a one-shot interaction. You asked, it answered. There was no memory between sessions, no ongoing project, no sense of working *with* something over time. The AI was a very capable contractor you hired for a single job and never saw again.
+
+I didn't know yet what continuity would feel like. But I was about to get a taste of something closer to it.
+
 ## The Vibe Coding Origin Story
 
 Late August 2025. My in-laws were visiting, shortly after GPT-5's release. My father-in-law and I were in the kitchen late at night — the kind of hour where ambitious ideas feel perfectly reasonable.
