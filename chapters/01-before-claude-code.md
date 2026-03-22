@@ -1,8 +1,8 @@
 ---
 title: "Chapter 1: Before Claude Code (BCC) — The ChatGPT Era"
-status: draft-v1
+status: draft-v2
 last_editor: claude
-notes: "Covers the pre-Claude AI landscape, vibe coding origin story, and projects that set the stage"
+notes: "Added MathWorks/pilot framing to opening; fixed broken kitchen transition; inserted Copilot/Jacob enterprise section (Sep 2025); expanded friction texture throughout"
 ---
 
 # Chapter 1: Before Claude Code (BCC) — The ChatGPT Era
@@ -11,9 +11,9 @@ By mid-2025, you were probably deep in the ChatGPT era — like me — and didn'
 
 Everyone I knew was experimenting. Product managers were tip-toeing with the technology, prototyping with AI services or locally with Ollama. Marketing teams were generating content drafts. Developers were starting to evaluate copilots and some were happy enough about the productivity gain it was providing. It's in mid-2025 that the term "vibe coding" entered the vocabulary — this idea that you could describe what you wanted in plain language and watch an AI conjure it into existence. It felt like magic, and like most magic, we didn't fully understand the trick.
 
-I was spending all the free hours I had on AI. I had my ChatGPT subscription, my collection of apps connecting to the OpenAI web services, and a growing sense that something fundamental was changing about how software would be built. But everything I did with AI in those years prior to Claude and agentic involved a lot of copy-pasting, trial and error, and manual integration.
+I was spending all the free hours I had on AI. I had my ChatGPT subscription, my collection of apps connecting to the OpenAI web services, and a growing sense that something fundamental was changing about how software would be built. But in practice, working with AI meant a lot of friction. You'd generate something useful, copy it into another tool, realize the context was lost, paste it back, re-explain what you were trying to do. Every session started fresh. Every project lived in its own bubble. The AI had no memory of you, no awareness of what you'd built together before. It was capable and frustrating in equal measure — like working with a brilliant colleague who had amnesia.
 
-That was about to change. But first, let me tell you about the night I built a website in my kitchen.
+That was about to change. But the first crack in that model didn't come from Claude — it came on Valentine's Day, 2025, from an unlikely source.
 
 ## The First Agent
 
@@ -25,7 +25,7 @@ Deep Research broke that loop. You gave it a question — a real, meaty one — 
 
 A colleague of mine had a reaction that stayed with me — watching someone replicate months of his market analysis work with a single deep research prompt in under thirty minutes. I'll come back to that story in Chapter 4, when we get into the competitive intelligence work in more *depth*. But the seed of it was here, in early 2025, the first time a research task felt genuinely delegatable.
 
-Still, there was a ceiling. Deep Research was powerful for synthesis, but it remained a one-shot interaction. You asked, it answered. There was no memory between sessions, no ongoing project, no sense of working *with* something over time. The AI was a very capable contractor you hired for a single job and never saw again.
+Still, there was a ceiling. Deep Research was powerful for synthesis, but it remained a one-shot interaction. You asked, it answered. There was no memory between sessions, no ongoing project, no sense of working *with* something over time. The AI was a very capable contractor you hired for a single job and never saw again. Next week, when the follow-up question came, you'd have to re-hire, re-brief, and re-explain everything from scratch — hoping the output would be consistent with what came before.
 
 I didn't know yet what continuity would feel like. But I was about to get a taste of something closer to it.
 
@@ -59,6 +59,18 @@ The lessons hit me one at a time over the following days:
 - **The "demo that becomes real" pattern is more powerful than planned projects.** When you remove the friction of building, you can test ideas at the speed of conversation.
 - **Domain purchases at 10pm sometimes pay off.** I'm not saying it's a strategy. But I'm not saying it isn't.
 
+## What AI Looked Like at Work
+
+In September 2025, a month after the kitchen demo, I gave a presentation to the broader product marketing department at MathWorks with my colleague Jacob. We called it "GenAI Tools for Modern Tech Marketers." The focus was on Microsoft Copilot — the AI tools most widely available inside the organization — and we structured it around three personas: the product manager, the developer, and the outbound marketer.
+
+For product managers, two tools stood out. The first was the Researcher — Microsoft's version of the deep research capability that ChatGPT and Perplexity had introduced earlier that year. You could ask it to analyze a market, summarize a competitive landscape, synthesize a body of documentation, and it would produce something genuinely useful. The second was the Analyst — a data analysis tool integrated directly into the Microsoft 365 environment, with access to your Excel files. I used it to slice product usage data across dimensions that would have taken me hours to do manually.
+
+The audience was receptive. Some people in the room had their own "sleepless night" moment during the session — a first encounter with AI that hit differently than they expected. We had built something that felt like real progress.
+
+And it was. But preparing that presentation also clarified something I hadn't fully articulated before: every one of these tools operated in isolation. The Researcher didn't know what the Analyst had found. Neither of them knew what project you were working on, what decisions you were trying to make, or what you'd already tried. You stitched the outputs together manually, in your own head, across a dozen open tabs. The AI was useful in each individual moment and absent everywhere in between.
+
+That was the state of the art in the enterprise in late 2025. It felt like progress — until you started wondering what it would feel like if the AI actually stuck around.
+
 ## Other Pre-Claude Projects
 
 recettesdezoe.com wasn't my only experiment in the pre-Claude era. That summer and fall, I'd been building a small portfolio of AI-assisted projects, each one pushing a little further into what was possible.
@@ -71,7 +83,7 @@ recettesdezoe.com wasn't my only experiment in the pre-Claude era. That summer a
 
 ## The Pattern I Couldn't See Yet
 
-Looking back, these projects trace an arc I couldn't see at the time. Each one was a single interaction — a prompt, a session, an output. I'd build something, feel the rush of creation, and move on. There was no continuity between sessions, no shared context, no sense that the AI remembered or built upon what we'd done before.
+Looking back, these projects trace an arc I couldn't see at the time. Each one was a single interaction — a prompt, a session, an output. I'd build something, feel the rush of creation, and move on. There was no continuity between sessions, no shared context, no sense that the AI remembered or built upon what we'd done before. I remember coming back to GhostRunners two weeks after building it, wanting to add a feature, and spending the first twenty minutes just re-explaining what the project was, what the data structure looked like, and what I'd already tried. The AI was helpful — but it was meeting me for the first time, again.
 
 Every conversation started from zero. Every project was an island.
 
