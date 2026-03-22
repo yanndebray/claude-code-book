@@ -12,7 +12,7 @@ As I was about to respond to a friend who had asked if there was a GPT to look u
 
 This is the story of how I met Claude. But mainly Claude Code.
 
-It was December of 2025. For some reason, this is when the world started to pay attention to Claude Code, and what was happening with coding agents. The company I worked for (the MathWorks, developers of MATLAB) was starting a pilot to assess the potential for non-developers first. A few product managers were given access, with the responsibility to report back on their usage in the first quarter of 2026. I was one of the lucky ones.
+It was December of 2025. For some reason, this is when the world started to pay attention to Claude Code, and what was happening with coding agents. The company I work for (the MathWorks, developers of MATLAB) was starting a pilot to assess the potential for non-developers first. A few product managers were given access, with the responsibility to report back on their usage in the first quarter of 2026. I was one of the lucky ones.
 
 What I didn't expect was that a three-month pilot would turn into a book. That a coding assistant would become a thinking partner. That I would find myself, night after night, building philosophy websites, competitive intelligence tools, cooking apps, and sports analytics channels — not because anyone asked me to, but because for the first time, the gap between having an idea and making it real had nearly vanished.
 
