@@ -82,6 +82,13 @@ claude-code-book/
 
 The v0.1 manuscript is available as a [**GitHub Release**](https://github.com/yanndebray/claude-code-book/releases/tag/v0.1) in PDF and DOCX formats.
 
+
+A license of Claude Code is not contained with this book.
+
+Get your own: [https://claude.com/product/claude-code](https://claude.com/product/claude-code)
+
+![](img/claude-code-ticket.gif)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
