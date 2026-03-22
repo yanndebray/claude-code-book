@@ -33,8 +33,9 @@ The server itself was elegant in its simplicity. Five tools:
 
 1. **`detect_matlab_toolboxes`** — Reports which toolboxes are installed. Simple, but essential. An agent needs to know what capabilities are available before it can plan how to solve a problem.
 2. **`check_matlab_code`** — Runs MATLAB's built-in `checkcode` function for style and correctness analysis. The agent can lint your code before running it.
-3. **`evaluate_matlab_code`** — Executes MATLAB code and returns the results. This is the core — the ability for an agent to actually *use* MATLAB, not just talk about it.
-4. **`start_matlab` / `quit_matlab`** — Session management. The agent can spin up a MATLAB instance and tear it down when it's done.
+3. **`evaluate_matlab_code`** — Executes a string of MATLAB code and returns the results. This is the core — the ability for an agent to actually *use* MATLAB, not just talk about it.
+4. **`run_matlab_file`** — Executes a `.m` script file and returns the output. Where `evaluate_matlab_code` runs a snippet, this runs a full file.
+5. **`run_matlab_test_file`** — Executes a MATLAB unit test file and returns comprehensive test results. The agent can not only write code but verify it.
 
 Five tools. That's it. But those five tools turned MATLAB from a standalone application into something that any AI agent could call programmatically. The strategic implications were enormous.
 
