@@ -91,13 +91,13 @@ This was the "build tools, not skills" philosophy applied to content creation. I
 
 ### NFL — From Toolbox to Clutch Factor
 
-The American football work was actually two projects built back-to-back, each in a single day, both vibe-coded with OpenAI Codex.
+The American football work was actually two projects, each built in a single day, a week apart, both vibe-coded with OpenAI Codex.
 
 The first was the **NFL Analytics Toolbox** — a MATLAB-first interface to NFL statistics. The idea was to bridge MATLAB and the open-source `nfl_data_py` Python library, so you could pull weekly player stats, play-by-play data, and team rosters directly into MATLAB tables. I built high-level functions like `showTeamDashboard("KC", 2023)` that generated four-tile figures with yardage breakdowns, projected vs. actual wins, roster profiles, and top performer summaries. The whole thing was packaged as a proper MATLAB toolbox — with an `Open in MATLAB Online` badge, unit tests, and a setup script that auto-provisioned a Python virtual environment via `uv`. The first commit message tells the story: *"vibe coding v0 with Codex."*
 
 A week later, I built the second project: the **TV Clutch Factor**. This one was pure Python into a web dashboard. The pipeline downloaded 25 seasons of NFL play-by-play data, filtered to clutch situations — score differential within 7.5 points in the final minutes of the fourth quarter or overtime — and computed an original metric that combined traditional passer rating with volume weighting. Which quarterbacks performed best when the game was on the line? Aaron Rodgers, Matthew Stafford, and Drew Brees topped the leaderboard. The results fed into an interactive HTML dashboard with a broadcast-style dark theme, sortable columns, and gold/silver/bronze podium styling, served directly from GitHub Pages.
 
-Two projects, two days total. One MATLAB, one Python-to-web. Neither would have existed if the cost of building them had been measured in weeks instead of evenings.
+Two projects, one day each. One MATLAB, one Python-to-web. Neither would have existed if the cost of building them had been measured in weeks instead of evenings.
 
 ### Cycling — The Ghost That Kept Running
 
