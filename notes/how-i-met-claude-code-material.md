@@ -256,7 +256,7 @@ The recipe site story evolved through multiple conversations:
 7 videos published in 2025:
 - **Tennis** — French Open prediction (ELO + ML, 75% accuracy)
 - **NBA** — Season ranking animations, dashboard with React/GitHub Actions
-- **NFL** — Clutch play analysis, MATLAB toolbox development
+- **NFL** — Two projects: (1) MATLAB NFL Analytics Toolbox wrapping nfl_data_py (github.com/slevin48/NFL-toolbox), vibe-coded with Codex; (2) TV Clutch Factor metric + interactive dashboard (github.com/slevin48/NFL-analysis), 25 seasons of clutch QB analysis
 - **Cycling** — Beat Your Ghost ride comparison, MATLAB Mobile data capture
 - **Soccer** — Premier League dashboard, programmatic MATLAB UI (uifigure), TheSportsDB API integration, built in 2 days (github.com/yanndebray/premier-league-matlab)
 - **Music** — KNN recommendation system using Spotify audio features

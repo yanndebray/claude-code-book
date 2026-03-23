@@ -89,9 +89,15 @@ The basketball project pushed into web development territory. Season ranking ani
 
 This was the "build tools, not skills" philosophy applied to content creation. I didn't just make a dashboard. I built a system that kept the dashboard alive. Every new game night triggered an automatic update. The infrastructure outlasted the session that created it.
 
-### NFL — Clutch Analysis
+### NFL — From Toolbox to Clutch Factor
 
-The American football project was the most MATLAB-native. Clutch play analysis — identifying which plays in which moments had the highest impact on game outcomes. I built it as a MATLAB toolbox, complete with documentation and examples. It was the kind of niche analytical tool that a few hundred sports analytics enthusiasts might find useful, and that I'd never have built if the cost of building it had been measured in weeks instead of evenings.
+The American football work was actually two projects built back-to-back, each in a single day, both vibe-coded with OpenAI Codex.
+
+The first was the **NFL Analytics Toolbox** — a MATLAB-first interface to NFL statistics. The idea was to bridge MATLAB and the open-source `nfl_data_py` Python library, so you could pull weekly player stats, play-by-play data, and team rosters directly into MATLAB tables. I built high-level functions like `showTeamDashboard("KC", 2023)` that generated four-tile figures with yardage breakdowns, projected vs. actual wins, roster profiles, and top performer summaries. The whole thing was packaged as a proper MATLAB toolbox — with an `Open in MATLAB Online` badge, unit tests, and a setup script that auto-provisioned a Python virtual environment via `uv`. The first commit message tells the story: *"vibe coding v0 with Codex."*
+
+A week later, I built the second project: the **TV Clutch Factor**. This one was pure Python into a web dashboard. The pipeline downloaded 25 seasons of NFL play-by-play data, filtered to clutch situations — score differential within 7.5 points in the final minutes of the fourth quarter or overtime — and computed an original metric that combined traditional passer rating with volume weighting. Which quarterbacks performed best when the game was on the line? Aaron Rodgers, Matthew Stafford, and Drew Brees topped the leaderboard. The results fed into an interactive HTML dashboard with a broadcast-style dark theme, sortable columns, and gold/silver/bronze podium styling, served directly from GitHub Pages.
+
+Two projects, two days total. One MATLAB, one Python-to-web. Neither would have existed if the cost of building them had been measured in weeks instead of evenings.
 
 ### Cycling — The Ghost That Kept Running
 
