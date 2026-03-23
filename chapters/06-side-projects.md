@@ -103,6 +103,18 @@ With Claude, I came back to it. The MCP server connected MATLAB to the broader w
 
 The ghost was still running. But now it was running faster.
 
+### Soccer — The Premier League Dashboard
+
+The soccer project was the most MATLAB-native of all the sports experiments. Not a data pipeline feeding a web dashboard, not a Python/MATLAB hybrid — a pure MATLAB programmatic UI built as a single class file.
+
+The idea started with a screenshot. I'd seen a Premier League standings dashboard somewhere — clean layout, color-coded zones, position-by-matchday chart — and thought: *I bet I can build that in MATLAB.* Not App Designer, not a MATLAB App with a `.mlapp` file that's impossible to diff or version-control. A programmatic `uifigure` with `uigridlayout`, written as a single `.m` class file. The kind of code that plays nicely with Git, that Claude can read and modify, that you can share with a link.
+
+Two days. That's how long it took to go from an empty file to a polished dashboard with five iterations documented in screenshots — v0.1 through v0.5, each one closer to the target layout. The final version had a full standings table color-coded by Champions League spots (blue), Europa League (orange), and relegation zone (red). Click a team and the side panel showed their badge (fetched live from TheSportsDB API), their card counts, and a ten-match form guide rendered as colored blocks. A position-by-matchday chart tracked all twenty teams across the season, highlighting your selection in bold blue against gray background lines.
+
+The part that surprised me was the test suite. I'd built `matlab.unittest` test cases with tagged categories — unit tests for the API name mappings, integration tests for the full badge-fetching workflow, performance tests verifying that cached lookups stayed under 10 milliseconds. This was a side project with better test coverage than some production code I'd seen. The pattern of building things *properly* — tests, documentation, clean architecture — had become a habit, not an overhead.
+
+And the `Open in MATLAB Online` button in the README? That was a small detail that connected the project to my day job. Anyone could click that badge and run the dashboard in their browser, no installation required. A product manager dogfooding his own product, building the kind of showcase he'd want other users to create.
+
 ### The Pattern
 
 Here's what the YouTube channel taught me: **the marginal cost of exploration had dropped to near zero.**

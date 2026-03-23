@@ -258,6 +258,7 @@ The recipe site story evolved through multiple conversations:
 - **NBA** — Season ranking animations, dashboard with React/GitHub Actions
 - **NFL** — Clutch play analysis, MATLAB toolbox development
 - **Cycling** — Beat Your Ghost ride comparison, MATLAB Mobile data capture
+- **Soccer** — Premier League dashboard, programmatic MATLAB UI (uifigure), TheSportsDB API integration, built in 2 days (github.com/yanndebray/premier-league-matlab)
 - **Music** — KNN recommendation system using Spotify audio features
 
 ### The Music Recommendation Deep Dive
