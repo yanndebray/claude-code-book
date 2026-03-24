@@ -15,7 +15,7 @@ You might know the feeling if you are passionate about tech. You discover someth
 
 ## The Presentation That Kept Evolving
 
-The story of these presentations actually begins in September 2025, months before Claude Code entered my life (remember chapter 1). My dear colleague Jacob George and I had co-created this deck called "GenAI Tools for Modern Tech Marketers" — a practical overview of how marketers could use AI tools to speed up their workflows. It was a solid deck. Useful. Conventional.
+The story of these presentations actually begins with that September 2025 deck Jacob and I built together (remember chapter 1) — "GenAI Tools for Modern Tech Marketers." Solid. Useful. Conventional.
 
 By January, that deck had been transformed beyond recognition. Most of the original slides were gone. In their place was something called "Agentic Learnings" — and over the next six weeks, I would rewrite it every week, each time for a different audience. Each version wasn't just a reshuffled slide order. Each one reflected genuine learning, additional weeks of experience, and a deeper understanding of what mattered to the people in the room.
 
