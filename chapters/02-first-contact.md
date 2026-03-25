@@ -89,7 +89,7 @@ But the numbers don't capture what was really changing. It was the *quality* of 
 
 The conversations had something I'd never experienced with an AI before: **honest feedback.** Claude didn't just agree with me. It pushed back. It identified weaknesses. It suggested alternatives I hadn't considered. And it did all of this without the social dynamics that make human feedback complicated — no ego, no office politics, no tiptoeing around seniority.
 
-What had started as a productivity experiment — can this tool help me write blog posts faster? — was becoming something I didn't have a name for yet. It wasn't a chatbot. It wasn't an assistant. It was starting to feel like a colleague who happened to be available at 2am and never needed coffee.
+What had started as a productivity experiment — can this tool help me write blog posts faster? — was becoming something I didn't have a name for yet. It wasn't a chatbot. It wasn't an assistant. It was starting to feel like a colleague who happened to be available at 10pm and never needed coffee.
 
 I didn't know where this was headed. But I knew that the one-shot, disposable AI interactions of the ChatGPT era were behind me. Whatever came next would be built on continuity, shared context, and the kind of thinking partnership I was only beginning to understand.
 

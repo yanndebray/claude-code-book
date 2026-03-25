@@ -23,13 +23,13 @@ This chapter is about three of those projects — a recipe website that almost b
 
 ## recettesdezoe.com — From Demo to Business?
 
-You already know the origin story from Chapter 1. Late-night kitchen session, father-in-law watching over my shoulder, a recipe website conjured from a single ChatGPT prompt, domain purchased at 2am. Then the surprise: 1,300 organic visitors four months later, with zero marketing, zero updates, zero effort.
+You already know the origin story from Chapter 1. Late-night kitchen session, father-in-law watching over my shoulder, a recipe website conjured from a single ChatGPT prompt, domain purchased at 10pm. Then the surprise: 1,300 organic visitors four months later, with zero marketing, zero updates, zero effort.
 
 What you don't know is what happened next.
 
 The traffic numbers broke something in my mental model, I said that already. But breaking a mental model is one thing. Deciding what to build on the rubble is another. Because once I had evidence that people were actually visiting this site — cooking from it, maybe — I had to ask a question I hadn't planned on asking: *Is this a product?*
 
-I did what any self-respecting product manager would do with an existential question about a 2am side project. I reached for a framework.
+I did what any self-respecting product manager would do with an existential question about a 10pm side project. I reached for a framework.
 
 ### The Mom Test
 
@@ -43,7 +43,7 @@ This is where the Chapter 4 pattern kicked in. I'd spent weeks training Claude t
 
 **Marmiton** — the absolute behemoth. 10 million monthly visitors, user-generated content, a brand so embedded in French cooking culture that "je vais regarder sur Marmiton" is practically a reflex. **750g** (owned by Webedia) — professional content, video-forward, with the media infrastructure to dominate on search and social. **Cuisine AZ** — another giant, part of the same media group as 750g, covering every conceivable recipe with industrial-scale content production.
 
-Then there was recettesdezoe.com. A site built in a kitchen. By a product manager. At 2am.
+Then there was recettesdezoe.com. A site built in a kitchen. By a product manager. At 10pm.
 
 The analysis was honest, and Claude didn't sugarcoat it: the French recipe market was a red ocean. The incumbents had decades of SEO authority, millions of indexed pages, and content pipelines that no solo operator could match on volume. The 1,300 visitors were real — probably finding the site through long-tail keywords that the giants hadn't bothered to optimize for. But scaling against Marmiton was like opening a corner bakery and hoping to outcompete an industrial bread factory.
 
@@ -67,7 +67,7 @@ I designed a CLI tool for recipe generation. I called it "Zoé" — the same nam
 
 The tool was built with the Copilot SDK and followed a structured workflow: research a recipe category, generate drafts that matched the established voice, validate against the Voice Test, and produce Markdown files ready for the site. Claude was the engine, but the CLI was the guardrail — deterministic, repeatable, consistent. A skill would have drifted with every conversation. A tool kept the voice stable.
 
-Did recettesdezoe.com become a business? No. Not yet, maybe not ever. But it stopped being a demo. It had a competitive analysis, a content strategy, a voice standard, and a production tool named after my daughter. The 2am party trick had become something I could pick up, work on for an evening, put down, and come back to a week later without starting from zero.
+Did recettesdezoe.com become a business? No. Not yet, maybe not ever. But it stopped being a demo. It had a competitive analysis, a content strategy, a voice standard, and a production tool named after my daughter. The 10pm party trick had become something I could pick up, work on for an evening, put down, and come back to a week later without starting from zero.
 
 That's what "kept growing" means. Not exponential growth. Not viral success. Just — alive.
 

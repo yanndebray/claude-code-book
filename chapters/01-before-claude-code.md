@@ -39,7 +39,7 @@ Late August 2025. My in-laws were visiting, shortly after GPT-5's release. My fa
 
 Single prompt. Single session. I opened ChatGPT, described what I wanted — a clean, browsable website of French recipes — and watched it generate the HTML, CSS, and JavaScript. The whole thing took maybe an hour, most of which was us discussing which recipes to feature and laughing about the absurdity of what we were doing.
 
-That same night, sometime around 2am, I purchased the domain on Cloudflare. recettesdezoe.com was born — named after my daughter Zoé. We deployed it right there, my father-in-law watching over my shoulder as the site went live.
+That same night, sometime around 10pm, I purchased the domain on Cloudflare. recettesdezoe.com was born — named after my daughter Zoé. We deployed it right there, my father-in-law watching over my shoulder as the site went live.
 
 It was a demo. A party trick. A thing I'd built to show what was possible.
 

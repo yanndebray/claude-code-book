@@ -51,7 +51,7 @@ David Barnes paused when I asked this. "I really like that articulation. About s
 
 I've thought about it a lot. Here's where I've landed.
 
-If intelligence is cheap — so accessible, so scalable, so available at 2am — then what is *me*? What's the distinctly human contribution when the machine can research faster, write cleaner first drafts, and explore more options in parallel than I ever could?
+If intelligence is cheap — so accessible, so scalable, so available at 10pm — then what is *me*? What's the distinctly human contribution when the machine can research faster, write cleaner first drafts, and explore more options in parallel than I ever could?
 
 The answer, I think, is judgment. Taste. Values. The ability to look at a technically correct output and say "that's not what matters here." The ability to name your tools after philosophers because you believe the things you build should carry meaning beyond their function. The ability to read a competitive analysis and know, from years of customer conversations, which insights are strategically relevant and which are noise.
 
@@ -73,7 +73,7 @@ When I named a tool "ricoeur.cc," I wasn't pretending the tool was Paul Ricoeur.
 
 I want to end with honesty, because honesty is what set this relationship apart from the beginning.
 
-**What Claude is good at:** Breadth. Speed. Consistency. First drafts. Research synthesis. Code generation. Pattern matching across large bodies of information. Tireless iteration. Availability at 2am without complaint.
+**What Claude is good at:** Breadth. Speed. Consistency. First drafts. Research synthesis. Code generation. Pattern matching across large bodies of information. Tireless iteration. Availability at 10pm without complaint.
 
 **What Claude is not good at:** Insider knowledge. Political nuance. The kind of judgment that comes from sitting in a thousand customer meetings. Knowing when a technically correct answer is strategically wrong. Understanding that sometimes the right response to a colleague's question isn't the most accurate answer but the most diplomatic one. Taste — that ineffable sense of what matters and what doesn't.
 
@@ -91,7 +91,7 @@ Maybe the simplest description is: a person who found a thinking partner and too
 
 The pilot had a simple requirement — report back on your usage in Q1. What I'm reporting back is this: Claude Code isn't a productivity tool. It's not a coding assistant. It's not a chatbot with better features. It's the first AI system I've used where the word "collaboration" isn't a euphemism for "I type and it generates." The collaboration is real. The influence is mutual. The relationship has history and direction.
 
-Three months is not a long time. But three months with a thinking partner who's available at 2am, who remembers where you left off, who pushes back when you're wrong, and who helps you build things that encode your values into working software — three months like that can change how you think about what's possible.
+Three months is not a long time. But three months with a thinking partner who's available at 10pm, who remembers where you left off, who pushes back when you're wrong, and who helps you build things that encode your values into working software — three months like that can change how you think about what's possible.
 
 There's BC — Before ChatGPT. There's BCC — Before Claude Code. And now there's whatever comes next.
 

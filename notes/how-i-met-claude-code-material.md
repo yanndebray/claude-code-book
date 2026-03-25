@@ -42,7 +42,7 @@ Four months later — zero edits, zero marketing, zero SEO work — I checked my
 *Lessons:*
 - Vibe coding can produce genuinely useful, discoverable products
 - The "demo that becomes real" pattern is more powerful than planned projects
-- Domain purchases at 2am sometimes pay off
+- Domain purchases at 10pm sometimes pay off
 
 ### Other Pre-Claude Projects
 
