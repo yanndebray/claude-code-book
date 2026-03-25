@@ -124,7 +124,7 @@ The discussion spiraled into territory that felt more like philosophy than a mar
 
 I showed them ChatGPT's memory feature, which described me in absurdly flattering terms — "deep technical," endlessly praiseworthy. The room laughed. This was sycophancy in action, the AI telling you what you want to hear. I contrasted it with my experience of Claude pushing back on my strategic memo in the first week. The difference mattered.
 
-Then I introduced Jean Claude — my personal AI agent on Telegram, complete with a French accent. I called the concept "productive anthropomorphism." Giving AI a persona and a name isn't a cognitive trap — it makes collaboration more intuitive, more natural. You don't anthropomorphize your spreadsheet, but maybe you should anthropomorphize your thinking partner.
+Then I introduced Jean-Clawd 🦞 — my personal AI agent on Telegram, complete with a French accent. I called the concept "productive anthropomorphism." Giving AI a persona and a name isn't a cognitive trap — it makes collaboration more intuitive, more natural. You don't anthropomorphize your spreadsheet, but maybe you should anthropomorphize your thinking partner.
 
 The most substantive exchange came when I posed a question I'd been sitting with for weeks:
 
@@ -172,4 +172,4 @@ But here's the thing I didn't expect. The most valuable part of having a thinkin
 
 The evangelist doesn't just spread the word. The evangelist refines it.
 
-And I was about to refine it further — in the most intense way possible. The hackathon was coming.
+And I was about to refine it further — not in a sprint, but in the slow burn of something I'd been quietly building in parallel. While I was presenting and evangelizing, there was a server running in Nuremberg, Germany, that never closed its terminal.

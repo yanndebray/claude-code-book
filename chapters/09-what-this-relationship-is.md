@@ -1,11 +1,11 @@
 ---
-title: "Chapter 8: What This Relationship Actually Is"
+title: "Chapter 9: What This Relationship Actually Is"
 status: draft-v1
 last_editor: claude
 notes: "The concluding chapter — synthesizes the journey across all prior chapters, names the five modes of collaboration, confronts the identity question, and lands on what human-AI partnership actually means"
 ---
 
-# Chapter 8: What This Relationship Actually Is
+# Chapter 9: What This Relationship Actually Is
 
 Three months. That's how long this story spans — December 2025 to February 2026. In the arc of a career, it's nothing. In the arc of what happened, it's everything.
 

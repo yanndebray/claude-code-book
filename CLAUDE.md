@@ -65,8 +65,8 @@ When drafting or expanding chapters, preserve this voice. Do not flatten it into
 4. The Competitive Intelligence Machine
 5. The MCP Standardization
 6. The Side Projects That Kept Growing
-7. Writing the Future — "The Age of AI Agents"
-8. The Hackathon Moment
+7. Writing the Future — Sharing Knowledge
+8. The Permanent Resident — Jean-Clawd & OpenClaw
 9. What This Relationship Actually Is
 - Appendix: Key Links & References
 
