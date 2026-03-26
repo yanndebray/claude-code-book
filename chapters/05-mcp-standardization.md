@@ -100,27 +100,25 @@ This is where the Claude Code features I'd been exploring became teachable mater
 
 **`CLAUDE.md`** — The file that solved the "every session starts from zero" problem. If you've used ChatGPT, you know the frustration: every conversation begins with you re-explaining your project, your conventions, your preferences. CLAUDE.md is a Markdown file that Claude reads at the start of every session — like onboarding documentation for a new teammate who happens to have perfect recall. Your build commands, your coding standards, your architecture decisions — all persistent, all version-controlled alongside your code.
 
-**Custom skills** — This is the feature that connected everything. But it needs a story to explain why.
+**Custom skills** — Chapter 2 introduced the concept: a plain-text `SKILL.md` file that captures a repeatable workflow. But there, skills lived in Claude Desktop — pasted in at the start of a conversation, powerful but manual. Claude Code changes the equation.
 
-### The Blog Post Skill
+### Skills Get a Home
 
-Remember the blogging workflow from Chapter 2? Claude had analyzed my published writing and codified my voice: the opening hooks, the colleague references, the "Happy hacking" closings, the Problem-Demo-Walkthrough-Resources structure. That voice guide was gold. But every time I started a new blog post in a fresh session, I had to reload it. "Here's my voice. Here's my structure. Here's how I reference colleagues." Five minutes of preamble, every time.
+Remember the blog voice skill from Chapter 2? That `SKILL.md` had to be reloaded every new session. In Claude Code, it gets a permanent address: `.claude/skills/blog-post/SKILL.md`. Now I could type `/blog-post "MATLAB + Hardware via MCP"` and Claude would draft a post in my voice — every time, without the preamble, without reloading anything.
 
-So I turned it into a skill. A directory in `.claude/skills/blog-post/` containing a `SKILL.md` with my voice guide, my structure template, and my formatting preferences. Now I could type `/blog-post "MATLAB + Hardware via MCP"` and Claude would draft a post that sounded like me — every time, without the preamble.
+But here's where it got more interesting. I noticed that sometimes Claude should load my voice *without me asking*. If I was editing a blog draft and Claude suggested a paragraph, it should already sound like me — not because I typed `/blog-post`, but because Claude recognized the context and applied the right knowledge automatically.
 
-But here's where it got interesting. I noticed that sometimes Claude should know about my voice *without me asking*. If I was editing a blog draft and Claude suggested a paragraph, it should already sound like me — not because I typed `/blog-post`, but because Claude recognized the context and loaded the right knowledge automatically.
-
-That's what skills do. The `SKILL.md` has a description field that Claude reads at the start of every session. When Claude sees that description matches what you're doing — drafting a blog post, generating a presentation, running a competitive analysis — it loads the full skill automatically. You don't invoke it. It activates itself.
+That's what the description field in `SKILL.md` enables. Claude reads all skill descriptions at the start of every session. When it sees a match between the description and what you're doing — drafting a blog post, running a competitive analysis, generating a presentation — it loads the full skill on its own. You don't invoke it. It activates itself.
 
 This was the progression I taught in the onboarding:
 
 1. **CLAUDE.md** gives Claude persistent knowledge about your project
-2. **Slash commands** (skills with `/skill-name`) let you invoke a workflow explicitly
+2. **Slash commands** (`/skill-name`) let you invoke a workflow explicitly
 3. **Auto-invoked skills** let Claude recognize when a workflow applies and load it on its own
 
-The difference between typing `/blog-post` and having Claude just *know* your voice is subtle but profound. It's the difference between a tool you pick up and a capability that activates itself when the situation calls for it. And it connected back to the central thesis of this book: the shift from AI-as-tool to AI-as-thinking-partner.
+The difference between typing `/blog-post` and having Claude just *know* your voice is subtle but profound. It's the difference between a tool you pick up and a capability that activates when the situation calls for it.
 
-The competitive intelligence workflows from Chapter 4? Skills. The philosopher tool documentation from Chapter 3? Skills. The presentation generation with nietzsche.cc? A skill. Every repeatable workflow I'd built over the previous weeks could be formalized, shared with colleagues, and — crucially — triggered automatically when the context was right.
+And once colleagues saw this, they started connecting it to everything they'd built. The philosopher tool documentation from Chapter 3? Skills. The competitive intelligence workflows from Chapter 4? Skills. The presentation generation, the conference report-outs, the embedded AI pipelines? All skills. Every repeatable workflow could now be formalized, version-controlled, shared with the team, and triggered automatically when the context was right.
 
 ## Agents Calling Agents
 
@@ -130,7 +128,7 @@ The MCP thesis was "agents calling tools" — an AI agent reaching out to extern
 
 Not just Claude using MATLAB. Claude orchestrating Codex and Gemini CLI. Multiple AI agents, working in parallel, each assigned a different piece of a larger task. Claude as the conductor, the other agents as the orchestra.
 
-The inspiration came from NetworkChuck — the idea of sending multiple agents down different research paths and synthesizing the results. Deep research, but parallelized. Instead of Claude doing everything itself, it could delegate: "You go research the market size. You go analyze the technical architecture. You go find the competitive landscape." Then it would synthesize the results into something more comprehensive than any single agent could produce.
+The inspiration came from a Youtuber called NetworkChuck — the idea of sending multiple agents down different research paths and synthesizing the results. Deep research, but parallelized. Instead of Claude doing everything itself, it could delegate: "You go research the market size. You go analyze the technical architecture. You go find the competitive landscape." Then it would synthesize the results into something more comprehensive than any single agent could produce.
 
 Gemini CLI's headless mode made this practical. OpenAI's Codex CLI offered another execution path. Even GitHub Copilot could be subcontracted through the `/github:AssignCodingAgent` MCP command — Claude assigning implementation work to Copilot through GitHub Issues.
 
