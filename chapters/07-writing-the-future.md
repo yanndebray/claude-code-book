@@ -76,7 +76,7 @@ Each stage wasn't just a skill upgrade — it was an identity shift. And each pr
 
 ## The Live Demo That Changed Minds
 
-The educator meeting had about seven people — Stefano, Jeff, Maria Elena, Will, Nandini, and Ascension joining remotely. I had just walked through the PCA-to-video pipeline: MATLAB script, Claude Code generating content, export to Word, feed into NotebookLM for slides, AI-generated voiceover. Total pipeline time: under 30 minutes. I added the honest caveat: "People don't like the AI-generated voice. So that's the part you should probably get rid of. But the rest is actually quite interesting."
+The educator meeting had about seven people — most of them in the room, and Ascension joining remotely. I had just walked through the PCA-to-video pipeline: MATLAB script, Claude Code generating content, export to Word, feed into NotebookLM for slides, AI-generated voiceover. Total pipeline time: under 30 minutes. I added the honest caveat: "People don't like the AI-generated voice. So that's the part you should probably get rid of. But the rest is actually quite interesting."
 
 Then Ascension asked the question that mattered: "What is the agentic part about this?"
 
@@ -130,7 +130,7 @@ The most substantive exchange came when I posed a question I'd been sitting with
 
 > "When AI starts writing good code, what is the part of your identity that you feel is threatened, if any?"
 
-David Barnes paused. "I really like that articulation. About somewhat of the identity. It's not something I've thought about before."
+The response I got from a participant was: "I really like that articulation. About somewhat of the identity. It's not something I've thought about before."
 
 I tried to frame it honestly: "If intelligence is just so cheap, so accessible, so scalable, what is me?... It's not necessarily insecurity, it's evolution."
 
@@ -142,9 +142,9 @@ The session ended with a message I'd been building toward across all the present
 
 I'd be painting a dishonest picture if I suggested everyone walked out of these sessions converted. They didn't. And the pushback wasn't ignorance — it was legitimate concern.
 
-Jeff raised the desktop-versus-cloud tension that ran through the company like a fault line. Agentic tools needed desktop software installed to be most effective, but the education market was demanding a cloud-first experience. That wasn't a problem I could demo my way out of.
+One edu marketer raised the desktop-versus-cloud tension that ran through the company like a fault line. Agentic tools needed desktop software installed to be most effective, but the education market was demanding a cloud-first experience. That wasn't a problem I could demo my way out of.
 
-The cost conversation came up in every session. "With great powers come great consumptions," I'd say, and it always got a knowing laugh. The $200-a-month subscription with daily limits was real. I was honest about it: "I have a 5-hour window where I start in the morning and then until 2... at some point I'm eating 100% and then I cannot work anymore. I need to go and chat with colleagues."
+The cost conversation came up in every session. "With great powers come great consumptions," I'd say, and it always got a knowing laugh. The $100-a-month subscription with daily limits was real. I was honest about it: "I have a 5-hour window where I start in the morning and then until 2... at some point I'm eating 100% and then I cannot work anymore. I need to go and chat with colleagues."
 
 The governance gray areas were real too. What could AI-generated content be used for internally? Externally? Where was the line? "Very gray area" was the consensus, and nobody had a satisfying answer.
 
@@ -162,7 +162,7 @@ Looking back at those six weeks, the trajectory surprises me. I walked into the 
 
 At the end of the educator meeting, after Ascension's skepticism had turned to engagement and the team had seen Claude Code work in real time, I proposed creating a new Gen AI Tiger Team specifically for Educator Programs. Not a vague "let's keep talking about this" — a concrete team with scheduled sessions, a backlog of use cases to explore, and a commitment to document what worked and what didn't. The room said yes. We discussed follow-up sessions for the remaining use cases: community toolboxes, conference report-outs, and more.
 
-That proposal was one piece of a larger pattern. I was also co-leading the Marketing Book Club on human-AI collaboration, creating onboarding materials for other MathWorkers, and sharing internal tools — the MATLAB Central MCP server, the skills repos, the philosopher-named tool chain.
+That proposal was one piece of a larger pattern. I was also co-leading the Marketing Book Club on human-AI collaboration, creating onboarding materials for other MathWorkers, and sharing internal tools and the skills.
 
 The presentations evolved because I evolved. Week 2 was about workflows. Week 3 was about technical possibilities. Week 6 was about meeting people where they were. The book club was about grappling with what it all meant for who we are and what we do.
 
