@@ -47,8 +47,6 @@ There's a question that surfaced during the Marketing Book Club and that I've be
 
 > "When AI starts writing good code, what is the part of your identity that you feel is threatened, if any?"
 
-David Barnes paused when I asked this. "I really like that articulation. About somewhat of the identity. It's not something I've thought about before."
-
 I've thought about it a lot. Here's where I've landed.
 
 If intelligence is cheap — so accessible, so scalable, so available at 10pm — then what is *me*? What's the distinctly human contribution when the machine can research faster, write cleaner first drafts, and explore more options in parallel than I ever could?
@@ -61,7 +59,7 @@ This isn't insecurity. It's evolution. The product manager who spent 80% of thei
 
 ## Productive Anthropomorphism
 
-I gave my personal AI agent a name — Jean Claude — and a French accent. I named my tools after philosophers. I used the word "colleague" to describe an AI system. Some people would call this naive. Others would call it dangerous — projecting humanity onto a machine, setting yourself up for disappointment.
+I gave my personal AI agent a name — Jean Clawd — and a French snarky personality. I named my tools after philosophers. I used the word "colleague" to describe an AI system. Some people would call this naive. Others would call it dangerous — projecting humanity onto a machine, setting yourself up for disappointment.
 
 I call it productive anthropomorphism.
 
@@ -91,7 +89,7 @@ Maybe the simplest description is: a person who found a thinking partner and too
 
 The pilot had a simple requirement — report back on your usage in Q1. What I'm reporting back is this: Claude Code isn't a productivity tool. It's not a coding assistant. It's not a chatbot with better features. It's the first AI system I've used where the word "collaboration" isn't a euphemism for "I type and it generates." The collaboration is real. The influence is mutual. The relationship has history and direction.
 
-Three months is not a long time. But three months with a thinking partner who's available at 10pm, who remembers where you left off, who pushes back when you're wrong, and who helps you build things that encode your values into working software — three months like that can change how you think about what's possible.
+Three months is not a long time. But three months with a thinking partner like Claude are three months that can change how you think about what's possible.
 
 There's BC — Before ChatGPT. There's BCC — Before Claude Code. And now there's whatever comes next.
 
