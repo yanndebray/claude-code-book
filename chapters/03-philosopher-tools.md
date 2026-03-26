@@ -17,19 +17,19 @@ The key insight of Week 2 was deceptively simple: **density — less is more.** 
 
 Let me explain. In Week 1, Claude had helped me create "skills" — structured prompts that captured my writing voice, my presentation style, my analytical frameworks. They were useful, but they were also fragile. A skill lives in a conversation. You invoke it, it shapes the output, and then it vanishes when the session ends. It's a one-shot thing — powerful in the moment, but not reusable in any systematic way.
 
-A CLI tool is different. A CLI tool is a piece of software that lives on your machine, that agents can call deterministically, that follows a workflow you've defined and tested. It doesn't depend on the quality of your prompt or the mood of the conversation. It just runs.
+A Command Line Interface tool is different. A CLI tool is a piece of software that lives on your machine, that agents can call deterministically, that follows a workflow you've defined and tested. It doesn't depend on the quality of your prompt or the mood of the conversation. It just runs.
 
 This distinction — between a prompt that works once and a tool that works every time — turned out to be the difference between playing with AI and actually building with it. And once I understood that, the tools started coming fast.
 
 ## The Army of Philosophers
 
-If you are like me, you probably name your projects something boring and descriptive — `slide-generator`, `media-converter`, `search-tool`. Functional. Forgettable. I'd done this my whole career.
+If you are like me BCC, you probably name your projects something boring and descriptive — `video-compress`, `slide-generator`, `media-converter`, `search-tool`. My first python tool was called `yt-transcripts`. Functional. Forgettable. I'd done this a lot. Before Claude.
 
 But something about building with Claude changed the naming instinct. Maybe it was the late-night energy. Maybe it was the reading I'd been doing all year. Maybe it was the feeling that these tools deserved names that carried meaning beyond their function. Whatever the reason, I started naming my tools after philosophers.
 
 And once I started, I couldn't stop.
 
-**montaigne.cc** was the first. A media processing toolkit for presentation localization — transcription, translation, audio and video processing, all powered by Google Gemini AI. Montaigne's *Essais* are the original explorations — a mind wandering across languages, cultures, and ideas, interpreting everything it encounters through the lens of personal experience. The tool does the same thing, in its own way. It takes content in one language and interprets it into another. It listens to audio and renders it as text. It crosses boundaries between media the way Montaigne crossed boundaries between disciplines.
+**montaigne.cc** was the first. A python tool for presentation animation — transcription, translation, audio and video processing, all powered by Google Gemini AI. Montaigne's *Essais* are the original explorations — a mind wandering across languages, cultures, and ideas, interpreting everything it encounters through the lens of personal experience. The tool does the same thing, in its own way. It takes content in one language and interprets it into another. It listens to audio and renders it as text. It crosses boundaries between media the way Montaigne crossed boundaries between disciplines.
 
 **nietzsche.cc** came next. A presentation generator — a CLI where the `power` command generates slide decks. "The will to present." I know, I know. But hear me out. Nietzsche's Übermensch is about self-overcoming, about transcending the tedious and mundane to reach something higher. If you've ever spent three hours manually formatting a PowerPoint deck when the ideas were already clear in your head, you understand the appeal. The tool was my Übermensch moment — a way to transcend the drudgery and focus on what mattered: the ideas themselves.
 
@@ -67,7 +67,7 @@ The philosopher tools and the reading list converged most dramatically in the Za
 
 The presentation traced the arc of Nietzsche's masterwork: the prophet Zarathustra descending from his mountain after ten years of solitude. The Übermensch — not a superhero, but a concept of human self-overcoming. The three metamorphoses: the Camel who bears the weight of tradition, the Lion who rebels and creates freedom, the Child who plays and creates new values. The Last Man — Nietzsche's warning about a humanity so comfortable it stops striving. The Will to Power as creative drive, not domination. Eternal Recurrence as the ultimate test of how you choose to live.
 
-Twelve to fifteen minutes of narrated content, generated from a tool I'd built with an AI, about a philosopher whose ideas had inspired the tool's name. If Nietzsche had known about recursion, he would have appreciated the structure.
+Twelve to fifteen minutes of narrated content, generated from a tool I'd built with an AI, about a philosopher whose ideas had inspired the tool's name. If Nietzsche had known about recursion, he would have appreciated the approach.
 
 ## The Philosopher Rap Battle
 
@@ -85,17 +85,17 @@ This is something I didn't expect about building with Claude: the creative compo
 
 Behind the philosophical naming and the creative experiments, Week 2 was also when I became a real developer. Or at least, a closer approximation of one.
 
-Python for CLI is fire. I'd known Python before, but building command-line tools with it — using `fire` for argument parsing, structuring projects as proper packages — felt different. These weren't scripts. They were software.
+Python for CLI is fire. I'd known Python before, but building command-line tools with it — using `click` and `typer` — felt different. These weren't scripts. They were software.
 
 `uv` is life. The Python package manager that made everything faster — environment creation, dependency resolution, the whole toolchain. Once you've used `uv`, going back to `pip` feels like going back to dial-up.
 
 Publishing to PyPI was the moment it felt real. My tools weren't just local scripts anymore. Anyone could `pip install` them. They existed in the world, with version numbers and documentation and download counts. Let the game begin.
 
-GitHub Issues became my requirements management system. Instead of keeping a mental list of features to add, I'd have Claude generate issues — structured, labeled, prioritized. Then I'd work through them methodically. Requirements in, code out, tests validating, CI/CD deploying.
+GitHub Issues became my requirements management system. Instead of keeping a mental list of features to add, I'd have Claude generate issues — structured, labeled, prioritized. Then I'd work through them methodically. Requirements in, planning, code out, tests validating, CI/CD deploying.
 
 Speaking of tests: automated testing via GitHub Actions meant that every push was validated. And when a test failed, I could ask the GitHub MCP server to retrieve the trace. No more copy-pasting error logs from one window to another. The feedback loop tightened until it was nearly instantaneous.
 
-I even recorded a YouTube demo — the whole workflow from concept to published package, captured on my @yannspeaksai channel. Because if you build an army of philosophers and don't document it, did it really happen?
+I even recorded a YouTube demo — the whole workflow from concept to published package. Because if you build an army of philosophers and don't document it, did it really happen? (like the saying goes, "if a tree falls in the forest and no one is around to hear it, does it make a sound?")
 
 ## Tools as Self-Portraits
 
@@ -103,7 +103,7 @@ Here's what I think Chapter 3 is really about.
 
 Naming your tools after philosophers isn't vanity — it's a way of encoding your values into the things you build. Every developer names their projects. Most names are functional, forgettable, interchangeable. But when you name a tool after Ricoeur, you're making a claim about what the tool means, not just what it does. You're saying: this search tool embodies a philosophy of interpretation. This presentation generator carries a vision of self-overcoming. This media toolkit is an act of translation in the deepest sense.
 
-The philosopher tools were the first sign that my collaboration with Claude was producing something more personal than productivity gains. The blog posts from Week 1 were useful. The strategic memos were valuable. But the tools — the tools were self-portraits in code. They reflected not just what I could build, but how I thought about the world.
+The philosopher tools were the first sign that my collaboration with Claude was producing something more personal than productivity gains. The blog posts from Week 1 were interesting. The strategic memos were valuable. But the tools — the tools were self-portraits in code. They reflected not just what I could build, but how I thought about the world.
 
 Week 2 had taught me that the line between philosophy and programming was thinner than I'd imagined. The existentialists and the engineers were asking the same question: *What should I build, and why does it matter?*
 
