@@ -7,7 +7,7 @@ notes: "Covers the transformation of side projects from one-shot demos to evolvi
 
 # Chapter 6: The Side Projects That Kept Growing
 
-If you are like me, you probably have a graveyard of side projects. Half-finished repos, abandoned domain names, ideas that burned bright for an evening and cooled by morning. The normal lifecycle of a side project is: excitement, prototype, neglect, guilt, quiet deletion. Maybe you keep them around in a private GitHub folder as monuments to good intentions. I certainly did.
+I'm not proud to admit it, but I have a graveyard of side projects. Half-finished repos, abandoned domain names, ideas that burned bright for an evening and cooled by morning. The normal lifecycle of a side project is: excitement, prototype, neglect, guilt, quiet deletion (if I ever come back to clean it up). Maybe you keep them around in a private GitHub folder as monuments to good intentions.
 
 Something different happened this time.
 
@@ -75,13 +75,13 @@ That's what "kept growing" means. Not exponential growth. Not viral success. Jus
 
 @yannspeaksai started as a way to document my projects. Record what I'm building, explain the process, put it out there. The kind of thing a lot of technical people do — part portfolio, part accountability mechanism, part excuse to learn video editing.
 
-Seven videos in 2025. Five different sports. Five completely different technology stacks. And without planning it, the channel became less of a content outlet and more of a laboratory — each video an experiment in a different domain, with the only constant being Claude as a collaborator.
+Seven videos in 2025. Five different sports. Five completely different technology stacks. And without planning it, the channel became less of a content outlet and more of a laboratory — each video an experiment in a different domain, with the only constant being AI as a collaborator.
 
 ### Tennis — Predicting the French Open
 
-The first sports video was about prediction. I built an ELO rating system enhanced with machine learning to forecast French Open match outcomes. The model achieved 75% accuracy, which sounds impressive until you realize that tennis prediction is a well-studied problem and the best models in the literature hover around the same range. The point wasn't to beat the state of the art. The point was that a product manager with no background in sports statistics could build a credible prediction system in a few evenings.
+The first sports video was about prediction. I built an ELO rating system enhanced with machine learning to forecast French Open match outcomes. The model achieved 75% accuracy, which sounds impressive until you realize that tennis prediction is a well-studied problem and the best models in the literature hover around the same range. The point wasn't to beat the state of the art. The point was that with no background in sports statistics, I could build a credible prediction system in a few hours.
 
-The stack was MATLAB for the analysis and Python for the data pipeline. Claude handled the integration between the two — something that would have taken me days of Stack Overflow diving in the Before Claude Code era.
+The stack was MATLAB for the analysis and Python for the data pipeline. Claude handled the boilerplate interop layer between the two — something that would have taken me days of Stack Overflow diving in before AI.
 
 ### NBA — Dashboards and Automation
 
@@ -191,9 +191,9 @@ In Chapter 1, I described a pattern: *"Every conversation started from zero. Eve
 
 By the time I'd reached the projects in this chapter, that had changed entirely. The projects weren't islands anymore — they were nodes in a network.
 
-recettesdezoe.com drew on the competitive intelligence patterns from Chapter 4 for its market analysis, on the voice preservation techniques from Chapter 2 for its content standard, and on the "build tools, not skills" philosophy from Chapter 3 for the Zoé CLI. The YouTube sports projects cross-pollinated: CI/CD from the NBA project fed into GhostRunners, MATLAB toolbox patterns from the NFL project informed the cycling analysis, and every project deposited knowledge that the next one could draw on. The music recommendation app used the same CLI architecture as the philosopher tools, the same research methodology as the competitive analysis, and connected back to the existentialist themes that ran through the whole journey.
+recettesdezoe.com drew on the voice preservation techniques from Chapter 2 for its content standard, and on the "build tools, not skills" philosophy from Chapter 3 for the Zoé CLI and on the competitive intelligence patterns from Chapter 4 for its market analysis. The YouTube sports projects cross-pollinated: CI/CD from the NBA project fed into GhostRunners, MATLAB toolbox patterns from the NFL project informed the cycling analysis, and every project deposited knowledge that the next one could draw on. The music recommendation app used the same CLI architecture as the philosopher tools, the same research methodology as the competitive analysis, and connected back to the existentialist themes that ran through the whole journey.
 
-The infrastructure chapters — the philosopher tools, the competitive intelligence machine, the MCP revolution — hadn't just produced outputs. They had produced a *way of working*. A set of patterns and capabilities that made every subsequent project cheaper, faster, and more connected than it would have been in isolation.
+The infrastructure chapters — the philosopher tools, the competitive intelligence machine, the MCP standard — hadn't just produced outputs. They had produced a *way of working*. A set of patterns and capabilities that made every subsequent project cheaper, faster, and more connected than it would have been in isolation.
 
 This is the portfolio effect. Not a planned portfolio — I never sat down and said "I'm going to build an interconnected network of side projects." It emerged from the compounding of tools, patterns, and knowledge across dozens of conversations with Claude. Each project made the next one possible. Each tool reduced the cost of the next tool. Each experiment deposited a capability that future experiments could inherit.
 
