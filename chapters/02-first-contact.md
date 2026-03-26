@@ -59,19 +59,43 @@ Then something happened that I hadn't expected.
 
 I asked Claude to study my published writing — the blog posts, the technical articles, the presentation scripts — and tell me what patterns it found. I wanted to know if my writing had a recognizable voice, and if so, whether Claude could capture it.
 
-Claude came back with what it called a "skill" — a structured guide that codified my writing voice into its component parts:
+What came back was a plain text file. A `.md` file, formatted like any other Markdown document, that Claude called a "skill." Not code. Not a configuration. Just structured prose describing how I write — and instructions for how to apply it.
 
-**My signature patterns:**
+```markdown
+---
+name: yann-blog-voice
+description: Write in Yann Debray's established blogging style for MathWorks technical posts
+---
 
-- **Opening hooks**: "If you are like me, you are probably familiar with this situation."
+## Voice & Tone
+Conversational but technically grounded. Acknowledge what you don't know.
+Make the reader feel like a peer discovering something alongside you.
+
+## Signature patterns
+- **Opening hooks**: "If you are like me, you are probably familiar with..."
 - **Colleague references**: "my dear colleague [Name]"
 - **Honest limitations**: "I'm not an expert in Finance!"
 - **Closings**: "Happy hacking, and let me know what you build! 👋🏻"
 - **Structure**: Problem → Demo → Walkthrough → Resources
+```
 
-I read through the analysis with a strange mix of recognition and surprise. It was accurate — almost uncannily so. These were patterns I'd developed over years of writing, and I'd never consciously catalogued them. Claude had done it in a single conversation.
+I read through it with a strange mix of recognition and surprise. These were patterns I'd developed over years of writing, and I'd never consciously catalogued them. Claude had done it in a single conversation.
 
 More importantly, it *worked*. When I asked Claude to draft sections using this skill, the output sounded like me. Not a generic approximation of a tech blogger, but specifically like me — my rhythms, my tendency to acknowledge what I don't know, my habit of opening with a shared experience. It was the difference between a cover band playing the notes and actually capturing the feel.
+
+The writing voice skill was just the first one. I quickly saw that the format could capture almost any repeatable workflow. Converting conference notes into an internal presentation. Turning a YouTube transcript into a structured blog post. Taking a MATLAB analysis and automatically generating its live script documentation — something I later wrote about in detail on the [MathWorks blog](https://blogs.mathworks.com/deep-learning/2026/02/09/automate-the-documentation-of-your-matlab-analysis-with-agentic-ai/). Each of these was a transformation: input of one type, output of another, with the skill defining the rules of conversion.
+
+The more ambitious examples came later: a skill for embedded AI workflows, walking Claude through the steps of taking a machine learning or deep learning algorithm and targeting it to a chip. The kind of pipeline that normally lives in an engineer's head — implicit, tribal, undocumented. A skill made it explicit.
+
+But I want to be honest about the limitation. Skills are non-deterministic. They're just text. Claude reads them and interprets them, and that interpretation can vary. Two runs of the same skill won't produce identical results. This isn't a bug — it's the nature of language models — but it's a real constraint if you need reproducibility.
+
+What made people love them anyway was the simplicity. No code to write. No system to configure. Just a Markdown file that says: *here's how this works, here's what good looks like, do it this way.* My colleagues started gravitating toward skills almost immediately. They recognized them as something they'd always needed but never had a format for: a way to capture their own know-how and make it portable.
+
+"I can write down how I do competitive analysis," one colleague told me. "And then Claude can do it the same way."
+
+That's the idea. Skills as institutional memory. Skills as the interface between human expertise and AI execution.
+
+There's a more dramatic way to put it — involving The Matrix and Keanu Reeves downloading kung fu in seconds — but that story belongs to Chapter 7, when we actually watched it happen live.
 
 This was when I started to understand that what was happening went beyond productivity. A tool that makes you faster is useful. A tool that learns your voice and helps you sound more like yourself — that's something else entirely.
 
