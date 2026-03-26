@@ -7,7 +7,7 @@ notes: "Covers the MathWorks pilot, strategic conversations, blogging workflow, 
 
 # Chapter 2: December 2025 — First Contact
 
-The email arrived sometime in early December. MathWorks was running a pilot program — Claude Code for non-developers. A handful of product managers would get access, with one responsibility: report back on what they found in Q1 2026. I was one of the lucky ones.
+The email arrived sometime in early December. MathWorks was running a pilot program — Claude Code for non-developers. A handful of product managers would get access, with one responsibility: report back on what they found in Q1 2026. I was one of the lucky early testers.
 
 But I didn't start with Claude Code. That would have been too big a leap for someone coming from the ChatGPT world. Instead, I started where most people would: Claude Desktop.
 
@@ -31,6 +31,8 @@ I sat with that for a moment. This wasn't what I was used to from AI conversatio
 
 I went back and rewrote sections of the memo. The final version was meaningfully better — not because Claude wrote it for me, but because Claude pushed back on the parts that needed pushing. It was the kind of feedback you'd hope to get from a sharp colleague, delivered without ego or politics.
 
+That experience stayed with me. Sitting with a sharper memo on one side of the conversation, I found myself thinking not just about the argument I'd improved, but about what the interaction itself *meant*. I had just been pushed to think harder — by a machine. Not nudged toward an answer, not flattered into confidence. Actually challenged. I wondered how many other people were having this moment, and how many still weren't.
+
 I was also creating a presentation on the impact of agentic AI on the market of scientific and technical computing — something that most companies must have been asking themselves at that point. One diagram I developed described the chasm between the early adopters of agentic AI, evaluating solutions like Claude, and the majority still associating AI with chatbots like ChatGPT. That chasm was real, and I was watching myself cross it in real time.
 
 ## The Blog Posts Begin
@@ -46,13 +48,10 @@ The list grew quickly:
 - Giving Local AI Agents the Ability to Use MATLAB with MCP
 - Building an Optimization Agent
 - Automating the Documentation of MATLAB Analysis
-- AI-Assisted Model-Based Design
 
-Eight posts in the pipeline within the first week. This wasn't because I suddenly became a faster writer. The content was still mine — the ideas, the technical depth, the perspective on where MATLAB fit in the agentic AI landscape. What changed was the workflow.
+A series of posts in the pipeline within the first week. This wasn't because I suddenly became a faster writer. The content was still mine — the ideas, the technical depth, the perspective on where MATLAB fit in the agentic AI landscape. What changed was the workflow.
 
-Claude handled the boring parts. The formatting, the structuring, the initial research on competitor approaches, the first-pass drafts of sections where I knew what I wanted to say but didn't want to stare at a blank page. This freed me to concentrate on the two things that actually mattered: **ideation and code.** The thinking and the building. Everything else was scaffolding, and Claude was excellent at scaffolding.
-
-The conference report-out workflow was another revelation. We had gone to the JupyterCon conference in San Diego with my colleague Rohan in early November, and delivering the internal presentation afterward had taken us a long time. I wondered how much of that process could be automated. When PyData came to Boston — its first time there, usually it's in NYC — I tested a streamlined workflow: notes in, presentation out, with Claude handling the transformation in between. The quality was surprisingly good, and the time savings were real.
+Claude handled the boring parts. The formatting, the structuring, the initial research and benchmarking, the first-pass drafts of sections where I knew what I wanted to say but didn't want to stare at a blank page. This freed me to concentrate on the two things that actually mattered: **ideation and code.** The thinking and the building. Everything else was scaffolding, and Claude was excellent at scaffolding.
 
 ## Claude Analyzes My Voice
 
@@ -81,8 +80,7 @@ This was when I started to understand that what was happening went beyond produc
 By the end of that first week with Claude, I had:
 
 - Sharpened a strategic memo through genuine intellectual sparring
-- Drafted the foundations for eight blog posts
-- Streamlined a conference report-out workflow
+- Drafted the foundations for several blog posts
 - Had my writing voice analyzed and codified in a way I could actually use
 
 But the numbers don't capture what was really changing. It was the *quality* of the interaction. Each conversation with Claude built on the ones before it. There was continuity — a shared context that grew with every exchange. When I mentioned the "agent calling toolboxes" strategy, Claude knew what I meant. When I referenced the blog voice, Claude could apply it. When I circled back to an idea from two days ago, I didn't have to re-explain everything from scratch.
@@ -93,6 +91,6 @@ What had started as a productivity experiment — can this tool help me write bl
 
 I didn't know where this was headed. But I knew that the one-shot, disposable AI interactions of the ChatGPT era were behind me. Whatever came next would be built on continuity, shared context, and the kind of thinking partnership I was only beginning to understand.
 
-Looking back, I'd later distill this first week into a slide I called "Agentic 101" — the foundation layer. Skills, tools, MCP. Claude Desktop as the gateway drug. Python first, then MATLAB. It was the simplest of the four weekly lessons I'd eventually present to colleagues, but it was also the most important. Everything that followed — the philosopher tools, the agent orchestration, the terminal becoming home — grew from this first week of unlearning what I thought AI could do.
+Looking back, I'd later distill this first week into a slide I called "Agentic 101" — the foundation layer. Claude Desktop as the gateway drug. Python first, then MATLAB. It was the simplest of the four weekly lessons I'd eventually present to colleagues, but it was also the most important. Everything that followed — the philosopher tools, the agent orchestration, the terminal becoming home — grew from this first week of unlearning what I thought AI could do.
 
 The philosopher tools were about to arrive. But that's the next chapter.

@@ -63,6 +63,16 @@ Claude changed the equation. By analyzing MATLAB community data — forum posts,
 
 The fact that colleagues were bringing me their questions told me something important. The competitive intelligence work wasn't just useful to me — it was becoming useful to the people around me. The research partner I'd found in Claude was turning into something closer to a research service.
 
+## Conference Intelligence
+
+A fourth stream emerged from a different direction: conferences.
+
+We had gone to JupyterCon in San Diego with my colleague Rohan in early November — before Claude, before the pilot. Delivering the internal report-out afterward had taken us the better part of a week. Distilling two days of talks and hallway conversations into something useful for colleagues who hadn't been there is harder than it sounds.
+
+I wondered how much of that could be automated. When PyData came to Boston — its first time there, usually it's in NYC — I tested a new workflow: raw notes in, structured presentation out, with Claude handling the transformation in between. The quality was surprisingly good, and the time savings were real.
+
+Conference intelligence follows the same pattern as competitive intelligence: breadth of input, synthesis under time pressure, delivered to people who need the signal without the noise. Claude was well-suited to all three.
+
 ## What Claude Brought, What I Brought
 
 Here's the honest accounting of who contributed what.
