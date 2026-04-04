@@ -10,13 +10,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yanndebray/claude-code-book/releases/tag/v0.1">
-    <img src="https://img.shields.io/badge/version-0.1-blue" alt="v0.1"/>
+  <a href="https://github.com/yanndebray/claude-code-book/releases/tag/v0.2.1">
+    <img src="https://img.shields.io/badge/version-0.2.1-blue" alt="v0.2.1"/>
   </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License"/>
   </a>
-  <a href="https://github.com/yanndebray/claude-code-book/releases/tag/v0.1">
+  <a href="https://github.com/yanndebray/claude-code-book/releases/tag/v0.2.1">
     <img src="https://img.shields.io/badge/KDP-submitted-orange" alt="KDP Submitted"/>
   </a>
 </p>
@@ -47,7 +47,8 @@ Along the way, it confronts the real tensions: the colleague whose six months of
 | 5 | **The MCP Revolution** | Model Context Protocol and MATLAB integration |
 | 6 | **The Side Projects That Kept Growing** | recettesdezoe.com, GhostRunners, sports analytics |
 | 7 | **Writing the Future** | "The Age of AI Agents" — writing a book about the future with AI |
-| 8 | **What This Relationship Actually Is** | Five modes of collaboration, identity shifts |
+| 8 | **The Permanent Resident** | Jean-Clawd, my openClaw |
+| 9 | **What This Relationship Actually Is** | Five modes of collaboration, identity shifts |
 | | **Appendix** | Key links and references |
 
 ## Five Modes of Human-AI Collaboration
