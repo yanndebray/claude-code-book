@@ -63,9 +63,9 @@ The book identifies five distinct modes that emerged from three months of workin
 
 ## About the Author
 
-**Yann Debray** is a product manager at MathWorks (developers of MATLAB) based in Boston. He participated in an internal pilot program to assess Claude Code for non-developers in Q1 2026. What started as a three-month evaluation became this book.
+**Yann Debray** is the Chief Product Officer at :probabl. the company behind Scikit-Learn and TabICL, developing agents for Data Science. In Q1 2026, he participated in an internal pilot program at MathWorks (developers of MATLAB) to assess Claude Code for non-developers. What started as a three-month evaluation became this book.
 
-He builds things at the intersection of technical computing and AI — from the MATLAB MCP Server to a sports analytics YouTube channel ([@yannspeaksai](https://youtube.com/@yannspeaksai)).
+He builds things at the intersection of data science, technical computing and AI, from the MATLAB MCP Server to a sports analytics YouTube channel ([@yannspeaksai](https://youtube.com/@yannspeaksai)).
 
 ## Repository Structure
 
